@@ -1,6 +1,12 @@
 from loguru import logger
 import numpy as np
+import pandas as pd
 
+@logger.catch
+def load_dataframe(path: str) -> pd:
+    # kolumny_lista = list()
+    # .. wsadzasz dane [arg1, arg2, ..., etykieta]
+    pass
 
 @logger.catch
 def load_data(path: str) -> tuple:

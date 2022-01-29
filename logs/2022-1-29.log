@@ -55,3 +55,10 @@
 [32m2022-01-29 18:56:20.338[0m | [31m[1mERROR   [0m | [36msrc.miscellaneous.data_loader[0m:[36mcheck_data_length[0m:[36m41[0m - [31m[1mData have inconsistent length[0m
 [32m2022-01-29 18:59:10.473[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
 [32m2022-01-29 18:59:10.493[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-29 19:40:23.435[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-29 19:40:23.455[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-29 19:40:23.458[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
