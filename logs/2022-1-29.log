@@ -1,0 +1,13 @@
+[32m2022-01-29 18:04:07.109[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [32m[1mOK[0m
+[32m2022-01-29 18:18:09.211[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m21[0m - [32m[1mdonor_dataset[:10]=array(['1', 'CTCCGAAGTAGGATT', '1', 'TCAGAAGGTGAGGGC', '1',
+       'TTGGAAGGTTCGCAG', '1', 'TACTCAGGTACTCAC', '1', 'CGCCCAGGTGACCGG'],
+      dtype='<U15')[0m
+[32m2022-01-29 18:18:34.155[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m21[0m - [32m[1mdonor_dataset[1]='CTCCGAAGTAGGATT'[0m
+[32m2022-01-29 18:18:56.126[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m21[0m - [32m[1mdonor_dataset[0:2:10]=array(['1'], dtype='<U15')[0m
+[32m2022-01-29 18:19:38.729[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m21[0m - [32m[1mdonor_dataset[0:10:2]=array(['1', '1', '1', '1', '1'], dtype='<U15')[0m
+[32m2022-01-29 18:19:49.766[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m21[0m - [32m[1mdonor_dataset[1:10:2]=array(['CTCCGAAGTAGGATT', 'TCAGAAGGTGAGGGC', 'TTGGAAGGTTCGCAG',
+       'TACTCAGGTACTCAC', 'CGCCCAGGTGACCGG'], dtype='<U15')[0m
+[32m2022-01-29 18:20:01.527[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m21[0m - [32m[1mdonor_dataset=array(['1', 'CTCCGAAGTAGGATT', '1', ..., 'TGCAGGAGTCCCAGG', '0',
+       'GTCCCAGGTGGCCCA'], dtype='<U15')[0m
+[32m2022-01-29 18:20:28.995[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m21[0m - [32m[1mData loaded successfully as <class 'numpy.ndarray'>[0m
+[32m2022-01-29 18:21:22.668[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m12[0m - [32m[1mData loaded successfully as <class 'numpy.ndarray'>[0m
