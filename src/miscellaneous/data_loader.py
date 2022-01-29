@@ -3,7 +3,7 @@ import numpy as np
 
 
 @logger.catch
-def load_data(path: str) -> np:
+def load_data(path: str) -> tuple:
     try:
         if not isinstance(path, str):
             raise TypeError(f"Expected str path to file, got {type(path)} instead.")
@@ -17,6 +17,19 @@ def load_data(path: str) -> np:
     except (TypeError, ValueError) as err:
         logger.critical(err)
         exit(1)
+
+
+@logger.catch
+def get_positive_only(data: np) -> np:
+    POSITIVE_ETIQUETTE = "1"
+    positive_indexes = np.where(data == POSITIVE_ETIQUETTE)[0]
+    return data[positive_indexes + 1]
+
+@logger.catch
+def get_negative_only(data: np) -> np:
+    NEGATIVE_ETIQUETTE = "0"
+    negative_indexes = np.where(data == NEGATIVE_ETIQUETTE)[0]
+    return data[negative_indexes + 1]
 
 
 if __name__ == "__main__":

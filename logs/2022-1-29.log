@@ -11,3 +11,35 @@
        'GTCCCAGGTGGCCCA'], dtype='<U15')[0m
 [32m2022-01-29 18:20:28.995[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m21[0m - [32m[1mData loaded successfully as <class 'numpy.ndarray'>[0m
 [32m2022-01-29 18:21:22.668[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m12[0m - [32m[1mData loaded successfully as <class 'numpy.ndarray'>[0m
+[32m2022-01-29 18:26:36.476[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-29 18:26:36.484[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m17[0m - [1mdonor_positive_only=array([   0,    2,    4, ..., 2226, 2228, 2230], dtype=int64)[0m
+[32m2022-01-29 18:28:04.124[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-29 18:28:04.131[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m17[0m - [1mdonor_positive_only=array(['CTCCGAAGTAGGATT', 'TCAGAAGGTGAGGGC', 'TTGGAAGGTTCGCAG', ...,
+       'CCTGCTGGTACGTGG', 'TCTGCCCGTAAGCAC', 'AGGCCAGGTACACCC'],
+      dtype='<U15')[0m
+[32m2022-01-29 18:29:53.125[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-29 18:29:53.129[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m17[0m - [1mdonor_positive_only=array(['CTCCGAAGTAGGATT', 'TCAGAAGGTGAGGGC', 'TTGGAAGGTTCGCAG', ...,
+       'CCTGCTGGTACGTGG', 'TCTGCCCGTAAGCAC', 'AGGCCAGGTACACCC'],
+      dtype='<U15')[0m
+[32m2022-01-29 18:29:53.135[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mdonor_negative_only=array(['AGATGCCGTCGGGCT', 'GGCACGGGTCCCGCT', 'CCCTGCAGTTTGGGT', ...,
+       'GAGCAGCGTGCAGGA', 'TGCAGGAGTCCCAGG', 'GTCCCAGGTGGCCCA'],
+      dtype='<U15')[0m
+[32m2022-01-29 18:30:43.742[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-29 18:30:43.747[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m15[0m - [1mdonor_dataset=array(['1', 'CTCCGAAGTAGGATT', '1', ..., 'TGCAGGAGTCCCAGG', '0',
+       'GTCCCAGGTGGCCCA'], dtype='<U15')[0m
+[32m2022-01-29 18:30:43.753[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m18[0m - [1mdonor_positive_only=array(['CTCCGAAGTAGGATT', 'TCAGAAGGTGAGGGC', 'TTGGAAGGTTCGCAG', ...,
+       'CCTGCTGGTACGTGG', 'TCTGCCCGTAAGCAC', 'AGGCCAGGTACACCC'],
+      dtype='<U15')[0m
+[32m2022-01-29 18:30:43.763[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [1mdonor_negative_only=array(['AGATGCCGTCGGGCT', 'GGCACGGGTCCCGCT', 'CCCTGCAGTTTGGGT', ...,
+       'GAGCAGCGTGCAGGA', 'TGCAGGAGTCCCAGG', 'GTCCCAGGTGGCCCA'],
+      dtype='<U15')[0m
+[32m2022-01-29 18:31:44.457[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-29 18:31:44.460[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m15[0m - [1mdonor_dataset=array(['1', 'CTCCGAAGTAGGATT', '1', ..., 'TGCAGGAGTCCCAGG', '0',
+       'GTCCCAGGTGGCCCA'], dtype='<U15')[0m
+[32m2022-01-29 18:31:44.465[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1m7[0m
+[32m2022-01-29 18:31:44.469[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mdonor_positive_only=array(['CTCCGAAGTAGGATT', 'TCAGAAGGTGAGGGC', 'TTGGAAGGTTCGCAG', ...,
+       'CCTGCTGGTACGTGG', 'TCTGCCCGTAAGCAC', 'AGGCCAGGTACACCC'],
+      dtype='<U15')[0m
+[32m2022-01-29 18:31:44.477[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m21[0m - [1mdonor_negative_only=array(['AGATGCCGTCGGGCT', 'GGCACGGGTCCCGCT', 'CCCTGCAGTTTGGGT', ...,
+       'GAGCAGCGTGCAGGA', 'TGCAGGAGTCCCAGG', 'GTCCCAGGTGGCCCA'],
+      dtype='<U15')[0m
