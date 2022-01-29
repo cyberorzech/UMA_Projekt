@@ -1,12 +1,26 @@
+from ast import Str
 from loguru import logger
 import numpy as np
 import pandas as pd
 
 @logger.catch
-def load_dataframe(path: str) -> pd:
-    # kolumny_lista = list()
-    # .. wsadzasz dane [arg1, arg2, ..., etykieta]
-    pass
+# def load_dataframe(path: str) -> pd:
+def load_dataframe(strings, label) -> pd:
+    xx = [list(s) for s in strings]  # 2d array from list of strings
+    df = pd.DataFrame(xx)
+    df.columns = [str(c) for c in df.columns]  # convert columns to strings from series
+    
+    nukes = {'A', 'C', 'G', 'T'}
+    try:  # check attributes values
+        if not all(map(lambda c: set(df[c].unique()).issubset(nukes), df.columns)):
+            raise ValueError("Attribute value not in set {'A', 'C', 'G', 'T'}")
+    except (TypeError, ValueError) as err:
+        logger.critical(err)
+        exit(1)
+        
+    df.insert(df.shape[1], "label", [str(label)] * len(strings))  # add label
+    
+    return df
 
 @logger.catch
 def load_data(path: str) -> tuple:
