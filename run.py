@@ -22,6 +22,8 @@ def main():
     check_data_length(acceptor_positive_only); check_data_length(acceptor_negative_only)
     logger.success("Data is valid")
 
+    logger.success(f"Summary\n{len(donor_positive_only)=}\n{len(donor_negative_only)=}\n{len(acceptor_positive_only)=}\n{len(acceptor_negative_only)=}")
+
     return donor_positive_only, donor_negative_only, acceptor_positive_only, acceptor_negative_only
 
 
