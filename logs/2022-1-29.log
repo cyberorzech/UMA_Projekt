@@ -43,3 +43,15 @@
 [32m2022-01-29 18:31:44.477[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m21[0m - [1mdonor_negative_only=array(['AGATGCCGTCGGGCT', 'GGCACGGGTCCCGCT', 'CCCTGCAGTTTGGGT', ...,
        'GAGCAGCGTGCAGGA', 'TGCAGGAGTCCCAGG', 'GTCCCAGGTGGCCCA'],
       dtype='<U15')[0m
+[32m2022-01-29 18:54:20.343[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-29 18:54:20.347[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m15[0m - [1mdonor_dataset=array(['1', 'CTCCGAAGTAGGATT', '1', ..., 'TGCAGGAGTCCCAGG', '0',
+       'GTCCCAGGTGGCCCA'], dtype='<U15')[0m
+[32m2022-01-29 18:54:20.351[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mdonor_artifact_index='7'[0m
+[32m2022-01-29 18:54:20.354[0m | [31m[1mERROR   [0m | [36msrc.miscellaneous.data_loader[0m:[36mcheck_data_length[0m:[36m40[0m - [31m[1mData have inconsistent length[0m
+[32m2022-01-29 18:56:20.328[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-29 18:56:20.332[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m15[0m - [1mdonor_dataset=array(['1', 'CTCCGAAGTAGGATT', '1', ..., 'TGCAGGAGTCCCAGG', '0',
+       'GTCCCAGGTGGCCCA'], dtype='<U15')[0m
+[32m2022-01-29 18:56:20.335[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mdonor_artifact_index='7'[0m
+[32m2022-01-29 18:56:20.338[0m | [31m[1mERROR   [0m | [36msrc.miscellaneous.data_loader[0m:[36mcheck_data_length[0m:[36m41[0m - [31m[1mData have inconsistent length[0m
+[32m2022-01-29 18:59:10.473[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-29 18:59:10.493[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m

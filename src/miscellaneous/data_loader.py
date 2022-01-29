@@ -31,6 +31,16 @@ def get_negative_only(data: np) -> np:
     negative_indexes = np.where(data == NEGATIVE_ETIQUETTE)[0]
     return data[negative_indexes + 1]
 
+@logger.catch
+def check_data_length(data: np) -> bool:
+    try:
+        FIRST_DATA_SAMPLE = data[0]
+        if not all(map(lambda v: len(v) == len(FIRST_DATA_SAMPLE), data)):
+            raise ValueError("Data have inconsistent length")
+    except ValueError as ve:
+        logger.error(ve)
+        exit(1)
+
 
 if __name__ == "__main__":
     raise NotImplementedError("Use as package")
