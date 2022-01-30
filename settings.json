@@ -3,5 +3,6 @@
     "LOG_LVL": "INFO",
     "LOG_RETENTION": "5d",
     "DONOR_DATASET_PATH": "./fixtures/spliceDTrainKIS.dat",
-    "ACCEPTOR_DATASET_PATH": "./fixtures/spliceATrainKIS.dat"
+    "ACCEPTOR_DATASET_PATH": "./fixtures/spliceATrainKIS.dat",
+    "TRAINING_SET_SIZE": "0.75"
 }

@@ -1,259 +1,242 @@
-[32m2022-01-30 00:01:32.231[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:01:32.239[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:01:32.246[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m38[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (1844), thread 'MainThread' (140510449694528):[0m
+[32m2022-01-30 01:33:48.927[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:33:48.946[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:33:48.950[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:33:48.975[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m33[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 02:31:49.395[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 02:31:49.411[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mData is valid[0m
+[32m2022-01-30 02:31:49.414[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 02:31:49.458[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m33[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 02:31:59.075[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 02:31:59.098[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mData is valid[0m
+[32m2022-01-30 02:31:59.101[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 02:31:59.135[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m33[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 02:32:07.124[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 02:32:07.143[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mData is valid[0m
+[32m2022-01-30 02:32:07.146[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 02:32:07.207[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m33[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 02:36:16.414[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mget_sets[0m:[36m13[0m - [32m[1mData loaded[0m
+[32m2022-01-30 02:36:16.436[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mget_sets[0m:[36m24[0m - [32m[1mData is valid[0m
+[32m2022-01-30 02:36:16.440[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mget_sets[0m:[36m25[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 02:36:16.474[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mget_sets[0m:[36m32[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:14:56.542[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mget_sets[0m:[36m13[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:14:56.578[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mget_sets[0m:[36m24[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:14:56.584[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mget_sets[0m:[36m25[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 04:14:56.629[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mget_sets[0m:[36m32[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:33:08.744[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m23[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (15388), thread 'MainThread' (7552):[0m
 [33m[1mTraceback (most recent call last):[0m
 
-> File "[32m[0m[32m[1mrun.py[0m", line [33m38[0m, in [35m<module>[0m
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m23[0m, in [35m<module>[0m
     [1mmain[0m[1m([0m[1m)[0m
-    [36m└ [0m[36m[1m<function main at 0x7fcb0d6435e0>[0m
+    [36m└ [0m[36m[1m<function main at 0x000002090C22C3A0>[0m
 
-  File "[32m[0m[32m[1mrun.py[0m", line [33m28[0m, in [35mmain[0m
-    [1mprint[0m[1m([0m[1mlen[0m[1m([0m[1mdf[0m[1m)[0m[1m)[0m
-    [36m          └ [0m[36m[1mNone[0m
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m11[0m, in [35mmain[0m
+    [1mdonor_training_set[0m[1m,[0m [1mdonor_test_set[0m[1m,[0m [1macceptor_training_set[0m[1m,[0m [1macceptor_test_set[0m[1m,[0m [1mdonor_artifact_index[0m[1m,[0m [1macceptor_artifact_index[0m [35m[1m=[0m [1mget_sets[0m[1m([0m[1m)[0m
 
-[31m[1mTypeError[0m:[1m object of type 'NoneType' has no len()[0m
-[32m2022-01-30 00:01:59.375[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:01:59.384[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:01:59.391[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m30[0m - [32m[1mSummary
+[31m[1mNameError[0m:[1m name 'get_sets' is not defined[0m
+[32m2022-01-30 04:33:33.026[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:33:33.046[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:33:33.050[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
 len(donor_positive_only)=1116
 len(donor_negative_only)=4140
 len(acceptor_positive_only)=1116
 len(acceptor_negative_only)=4672[0m
-[32m2022-01-30 00:02:24.291[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:02:24.300[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:02:24.347[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m31[0m - [32m[1mSummary
+[32m2022-01-30 04:33:33.082[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:33:45.296[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:33:45.309[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:33:45.311[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
 len(donor_positive_only)=1116
 len(donor_negative_only)=4140
 len(acceptor_positive_only)=1116
 len(acceptor_negative_only)=4672[0m
-[32m2022-01-30 00:05:54.721[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:05:54.730[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:05:54.771[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m32[0m - [32m[1mSummary
+[32m2022-01-30 04:33:45.353[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:43:24.729[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:43:24.744[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:43:24.746[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
 len(donor_positive_only)=1116
 len(donor_negative_only)=4140
 len(acceptor_positive_only)=1116
 len(acceptor_negative_only)=4672[0m
-[32m2022-01-30 00:06:51.941[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:06:51.950[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:06:51.996[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m32[0m - [32m[1mSummary
+[32m2022-01-30 04:43:24.769[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:44:04.857[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:44:04.871[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:44:04.875[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
 len(donor_positive_only)=1116
 len(donor_negative_only)=4140
 len(acceptor_positive_only)=1116
 len(acceptor_negative_only)=4672[0m
-[32m2022-01-30 00:07:09.706[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:07:09.715[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:07:09.720[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1999), thread 'MainThread' (139782931371840):[0m
-[33m[1mTraceback (most recent call last):[0m
-
-  File "[32m[0m[32m[1mrun.py[0m", line [33m40[0m, in [35m<module>[0m
-    [1mmain[0m[1m([0m[1m)[0m
-    [36m└ [0m[36m[1m<function main at 0x7f21a9eb9670>[0m
-
-> File "[32m[0m[32m[1mrun.py[0m", line [33m26[0m, in [35mmain[0m
-    [1mdf[0m [35m[1m=[0m [1mload_dataframe[0m[1m([0m[1mdonor_positive_only[0m[1m,[0m [34m[1m1[0m[1m)[0m
-    [36m     │              └ [0m[36m[1marray(['CTCCGAAGTAGGATT', 'TCAGAAGGTGAGGGC', 'TTGGAAGGTTCGCAG', ...,[0m
-    [36m     │                [0m[36m[1m       'CCTGCTGGTACGTGG', 'TCTGCCCGTAAGCAC', 'AGGCCAGGTA...[0m
-    [36m     └ [0m[36m[1m<function load_dataframe at 0x7f21a9eb43a0>[0m
-
-  File "[32m/home/santa/2021z/uma/pro/repo/UMA_Projekt/src/miscellaneous/[0m[32m[1mdata_loader.py[0m", line [33m14[0m, in [35mload_dataframe[0m
-    [1mvalue[0m [35m[1m=[0m [1m[[0m[1mord[0m[1m([0m[1mlabel[0m[1m)[0m [35m[1mfor[0m [1ms[0m [35m[1min[0m [1mstrings[0m[1m][0m[1m)[0m  [30m[1m# add label[0m
-    [36m             │               └ [0m[36m[1marray(['CTCCGAAGTAGGATT', 'TCAGAAGGTGAGGGC', 'TTGGAAGGTTCGCAG', ...,[0m
-    [36m             │                 [0m[36m[1m       'CCTGCTGGTACGTGG', 'TCTGCCCGTAAGCAC', 'AGGCCAGGTA...[0m
-    [36m             └ [0m[36m[1m1[0m
-
-  File "[32m/home/santa/2021z/uma/pro/repo/UMA_Projekt/src/miscellaneous/[0m[32m[1mdata_loader.py[0m", line [33m14[0m, in [35m<listcomp>[0m
-    [1mvalue[0m [35m[1m=[0m [1m[[0m[1mord[0m[1m([0m[1mlabel[0m[1m)[0m [35m[1mfor[0m [1ms[0m [35m[1min[0m [1mstrings[0m[1m][0m[1m)[0m  [30m[1m# add label[0m
-    [36m             │          └ [0m[36m[1m'CTCCGAAGTAGGATT'[0m
-    [36m             └ [0m[36m[1m1[0m
-
-[31m[1mTypeError[0m:[1m ord() expected string of length 1, but int found[0m
-[32m2022-01-30 00:07:09.729[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m40[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (1999), thread 'MainThread' (139782931371840):[0m
-[33m[1mTraceback (most recent call last):[0m
-
-> File "[32m[0m[32m[1mrun.py[0m", line [33m40[0m, in [35m<module>[0m
-    [1mmain[0m[1m([0m[1m)[0m
-    [36m└ [0m[36m[1m<function main at 0x7f21a9eb9670>[0m
-
-  File "[32m[0m[32m[1mrun.py[0m", line [33m28[0m, in [35mmain[0m
-    [1mprint[0m[1m([0m[1mlen[0m[1m([0m[1mdf[0m[1m)[0m[1m)[0m
-    [36m          └ [0m[36m[1mNone[0m
-
-[31m[1mTypeError[0m:[1m object of type 'NoneType' has no len()[0m
-[32m2022-01-30 00:07:53.142[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:07:53.151[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:07:53.189[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m32[0m - [32m[1mSummary
+[32m2022-01-30 04:44:04.901[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:47:04.819[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:47:04.833[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:47:04.836[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
 len(donor_positive_only)=1116
 len(donor_negative_only)=4140
 len(acceptor_positive_only)=1116
 len(acceptor_negative_only)=4672[0m
-[32m2022-01-30 00:09:49.521[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:09:49.531[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:09:49.579[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m33[0m - [32m[1mSummary
+[32m2022-01-30 04:47:04.863[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:47:05.109[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m27[0m - [32m[1m-0.1915131999994628 : generator[0m
+[32m2022-01-30 04:47:05.379[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m33[0m - [32m[1m-0.26647539995610714 : iterable[0m
+[32m2022-01-30 04:47:34.925[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:47:34.947[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:47:34.951[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
 len(donor_positive_only)=1116
 len(donor_negative_only)=4140
 len(acceptor_positive_only)=1116
 len(acceptor_negative_only)=4672[0m
-[32m2022-01-30 00:11:03.230[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:11:03.239[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:11:03.289[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m41[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (2109), thread 'MainThread' (139738632124224):[0m
-[33m[1mTraceback (most recent call last):[0m
-
-> File "[32m[0m[32m[1mrun.py[0m", line [33m41[0m, in [35m<module>[0m
-    [1mmain[0m[1m([0m[1m)[0m
-    [36m└ [0m[36m[1m<function main at 0x7f17597ab550>[0m
-
-  File "[32m[0m[32m[1mrun.py[0m", line [33m31[0m, in [35mmain[0m
-    [1mprint[0m[1m([0m[1mdf[0m[1m[[0m[36m'5'[0m[1m][0m[35m[1m.[0m[1munique[0m[1m([0m[1m)[0m [35m[1min[0m [1m[[0m[36m'A'[0m[1m,[0m [36m'C'[0m[1m,[0m [36m'G'[0m[1m,[0m [36m'T'[0m[1m][0m[1m)[0m
-    [36m      └ [0m[36m[1m      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15[0m
-    [36m        [0m[36m[1m0     C  T  C  C  G  A  A  G  T  A  G  G  A  T  T  1[0m
-    [36m        [0m[36m[1m1     T  C  A  G  A...[0m
-
-[31m[1mValueError[0m:[1m The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()[0m
-[32m2022-01-30 00:16:39.904[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:16:39.914[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:16:39.955[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m33[0m - [32m[1mSummary
+[32m2022-01-30 04:47:34.978[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:48:57.105[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:48:57.128[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:48:57.133[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
 len(donor_positive_only)=1116
 len(donor_negative_only)=4140
 len(acceptor_positive_only)=1116
 len(acceptor_negative_only)=4672[0m
-[32m2022-01-30 00:17:05.955[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:17:05.964[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:17:06.005[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m41[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (2253), thread 'MainThread' (140140377327424):[0m
-[33m[1mTraceback (most recent call last):[0m
-
-> File "[32m[0m[32m[1mrun.py[0m", line [33m41[0m, in [35m<module>[0m
-    [1mmain[0m[1m([0m[1m)[0m
-    [36m└ [0m[36m[1m<function main at 0x7f74e35c0550>[0m
-
-  File "[32m[0m[32m[1mrun.py[0m", line [33m31[0m, in [35mmain[0m
-    [1mprint[0m[1m([0m[1mset[0m[1m([0m[1mdf[0m[1m[[0m[36m'5'[0m[1m][0m[35m[1m.[0m[1munique[0m[1m([0m[1m)[0m[1m)[0m [35m[1min[0m [1mset[0m[1m([0m[36m'A'[0m[1m,[0m [36m'C'[0m[1m,[0m [36m'G'[0m[1m,[0m [36m'T'[0m[1m)[0m[1m)[0m
-    [36m          └ [0m[36m[1m      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15[0m
-    [36m            [0m[36m[1m0     C  T  C  C  G  A  A  G  T  A  G  G  A  T  T  1[0m
-    [36m            [0m[36m[1m1     T  C  A  G  A...[0m
-
-[31m[1mTypeError[0m:[1m set expected at most 1 argument, got 4[0m
-[32m2022-01-30 00:17:20.570[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:17:20.579[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:17:20.620[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m33[0m - [32m[1mSummary
+[32m2022-01-30 04:48:57.164[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:48:59.054[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m27[0m - [32m[1m1.8334203999838792 : generator[0m
+[32m2022-01-30 04:49:02.391[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m33[0m - [32m[1m3.3327502999454737 : iterable[0m
+[32m2022-01-30 04:53:17.923[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:53:17.941[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:53:17.946[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
 len(donor_positive_only)=1116
 len(donor_negative_only)=4140
 len(acceptor_positive_only)=1116
 len(acceptor_negative_only)=4672[0m
-[32m2022-01-30 00:19:31.335[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:19:31.344[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:19:31.391[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m34[0m - [32m[1mSummary
+[32m2022-01-30 04:53:17.973[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:58:01.793[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:58:01.809[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:58:01.812[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
 len(donor_positive_only)=1116
 len(donor_negative_only)=4140
 len(acceptor_positive_only)=1116
 len(acceptor_negative_only)=4672[0m
-[32m2022-01-30 00:20:45.200[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:20:45.209[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:20:45.252[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m35[0m - [32m[1mSummary
+[32m2022-01-30 04:58:01.845[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:58:40.139[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:58:40.154[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:58:40.157[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
 len(donor_positive_only)=1116
 len(donor_negative_only)=4140
 len(acceptor_positive_only)=1116
 len(acceptor_negative_only)=4672[0m
-[32m2022-01-30 00:29:03.840[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:29:03.849[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:29:03.894[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m35[0m - [32m[1mSummary
-len(donor_positive_only)=1116
-len(donor_negative_only)=4140
-len(acceptor_positive_only)=1116
-len(acceptor_negative_only)=4672[0m
-[32m2022-01-30 00:32:36.528[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:32:36.568[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:32:36.605[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (2621), thread 'MainThread' (139958789662528):[0m
-[33m[1mTraceback (most recent call last):[0m
-
-  File "[32m[0m[32m[1mrun.py[0m", line [33m43[0m, in [35m<module>[0m
-    [1mmain[0m[1m([0m[1m)[0m
-    [36m└ [0m[36m[1m<function main at 0x7f4a9be435e0>[0m
-
-> File "[32m[0m[32m[1mrun.py[0m", line [33m26[0m, in [35mmain[0m
-    [1mdf[0m [35m[1m=[0m [1mload_dataframe[0m[1m([0m[1mdonor_positive_only[0m[1m,[0m [34m[1m1[0m[1m)[0m
-    [36m     │              └ [0m[36m[1marray(['CTCCGAAGTAGGATT', 'TCAGAAGGTGAGGGC', 'TTGGAAGGTTCGCAG', ...,[0m
-    [36m     │                [0m[36m[1m       'CCTGCTGGTACGTGG', 'TCTGCCCGTAAGCAC', 'AGGCCAGGTA...[0m
-    [36m     └ [0m[36m[1m<function load_dataframe at 0x7f4a9be3d310>[0m
-
-  File "[32m/home/santa/2021z/uma/pro/repo/UMA_Projekt/src/miscellaneous/[0m[32m[1mdata_loader.py[0m", line [33m21[0m, in [35mload_dataframe[0m
-    [1mdf[0m[35m[1m.[0m[1minsert[0m[1m([0m[1mloc[0m [35m[1m=[0m [36m"label"[0m[1m,[0m
-    [36m│  └ [0m[36m[1m<function DataFrame.insert at 0x7f4a9c2f88b0>[0m
-    [36m└ [0m[36m[1m      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14[0m
-    [36m  [0m[36m[1m0     C  T  C  C  G  A  A  G  T  A  G  G  A  T  T[0m
-    [36m  [0m[36m[1m1     T  C  A  G  A  A  G...[0m
-
-  File "/home/santa/anaconda3/lib/python3.8/site-packages/pandas/core/frame.py", line 3763, in insert
-    self._mgr.insert(loc, column, value, allow_duplicates=allow_duplicates)
-    │    │    │      │    │       │                       └ False
-    │    │    │      │    │       └ array([['1', '1', '1', ..., '1', '1', '1']], dtype=object)
-    │    │    │      │    └ '15'
-    │    │    │      └ 'label'
-    │    │    └ <function BlockManager.insert at 0x7f4a9c6f49d0>
-    │    └ BlockManager
-    │      Items: Index(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12',
-    │             '13', '14'],
-    │            dtyp...
-    └       0  1  2  3  4  5  6  7  8  9 10 11 12 13 14
-      0     C  T  C  C  G  A  A  G  T  A  G  G  A  T  T
-      1     T  C  A  G  A  A  G...
-  File "/home/santa/anaconda3/lib/python3.8/site-packages/pandas/core/internals/managers.py", line 1194, in insert
-    raise TypeError("loc must be int")
-
-[31m[1mTypeError[0m:[1m loc must be int[0m
-[32m2022-01-30 00:32:36.803[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m43[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (2621), thread 'MainThread' (139958789662528):[0m
-[33m[1mTraceback (most recent call last):[0m
-
-> File "[32m[0m[32m[1mrun.py[0m", line [33m43[0m, in [35m<module>[0m
-    [1mmain[0m[1m([0m[1m)[0m
-    [36m└ [0m[36m[1m<function main at 0x7f4a9be435e0>[0m
-
-  File "[32m[0m[32m[1mrun.py[0m", line [33m28[0m, in [35mmain[0m
-    [1mprint[0m[1m([0m[1mlen[0m[1m([0m[1mdf[0m[1m)[0m[1m)[0m
-    [36m          └ [0m[36m[1mNone[0m
-
-[31m[1mTypeError[0m:[1m object of type 'NoneType' has no len()[0m
-[32m2022-01-30 00:33:27.126[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:33:27.142[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:33:27.233[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m35[0m - [32m[1mSummary
-len(donor_positive_only)=1116
-len(donor_negative_only)=4140
-len(acceptor_positive_only)=1116
-len(acceptor_negative_only)=4672[0m
-[32m2022-01-30 00:33:44.646[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:33:44.656[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:33:44.713[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m35[0m - [32m[1mSummary
-len(donor_positive_only)=1116
-len(donor_negative_only)=4140
-len(acceptor_positive_only)=1116
-len(acceptor_negative_only)=4672[0m
-[32m2022-01-30 00:35:42.843[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:35:42.852[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:35:42.896[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m35[0m - [32m[1mSummary
-len(donor_positive_only)=1116
-len(donor_negative_only)=4140
-len(acceptor_positive_only)=1116
-len(acceptor_negative_only)=4672[0m
-[32m2022-01-30 00:36:25.158[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
-[32m2022-01-30 00:36:25.168[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
-[32m2022-01-30 00:36:25.204[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m35[0m - [32m[1mSummary
-len(donor_positive_only)=1116
-len(donor_negative_only)=4140
-len(acceptor_positive_only)=1116
-len(acceptor_negative_only)=4672[0m
+<<<<<<< HEAD
 [32m2022-01-30 00:49:06.399[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
 [32m2022-01-30 00:49:06.408[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
 [32m2022-01-30 00:49:06.446[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m31[0m - [32m[1mSummary
+=======
+[32m2022-01-30 04:58:40.187[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:58:56.277[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:58:56.296[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:58:56.299[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+>>>>>>> 3c17b8d95fa1211b437becc6720ebf1310871e5c
 len(donor_positive_only)=1116
 len(donor_negative_only)=4140
 len(acceptor_positive_only)=1116
 len(acceptor_negative_only)=4672[0m
+<<<<<<< HEAD
 [32m2022-01-30 00:52:41.497[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
 [32m2022-01-30 00:52:41.516[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
 [32m2022-01-30 00:52:41.580[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m31[0m - [32m[1mSummary
+=======
+[32m2022-01-30 04:58:56.329[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 05:08:01.714[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 05:08:01.730[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 05:08:01.734[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+>>>>>>> 3c17b8d95fa1211b437becc6720ebf1310871e5c
 len(donor_positive_only)=1116
 len(donor_negative_only)=4140
 len(acceptor_positive_only)=1116
 len(acceptor_negative_only)=4672[0m
+<<<<<<< HEAD
 [32m2022-01-30 00:54:44.989[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
 [32m2022-01-30 00:54:44.998[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
 [32m2022-01-30 00:54:45.062[0m | [41m[1mCRITICAL[0m | [36msrc.miscellaneous.data_loader[0m:[36mload_dataframe[0m:[36m18[0m - [41m[1mAttribute value not in set {'A', 'C', 'G', 'T'}[0m
@@ -263,10 +246,22 @@ len(acceptor_negative_only)=4672[0m
 [32m2022-01-30 01:02:09.013[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
 [32m2022-01-30 01:02:09.023[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
 [32m2022-01-30 01:02:09.056[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m35[0m - [32m[1mSummary
+=======
+[32m2022-01-30 05:08:01.764[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 05:08:01.845[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mtotal_gini=0.3349112285225755[0m
+[32m2022-01-30 05:09:48.767[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 05:09:48.787[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 05:09:48.791[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+>>>>>>> 3c17b8d95fa1211b437becc6720ebf1310871e5c
 len(donor_positive_only)=1116
 len(donor_negative_only)=4140
 len(acceptor_positive_only)=1116
 len(acceptor_negative_only)=4672[0m
+<<<<<<< HEAD
 [32m2022-01-30 01:02:56.685[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
 [32m2022-01-30 01:02:56.693[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
 [32m2022-01-30 01:02:56.749[0m | [41m[1mCRITICAL[0m | [36msrc.miscellaneous.data_loader[0m:[36mload_dataframe[0m:[36m18[0m - [41m[1mAttribute value not in set {'A', 'C', 'G', 'T'}[0m
@@ -645,3 +640,252 @@ len(donor_positive_only)=1116
 len(donor_negative_only)=4140
 len(acceptor_positive_only)=1116
 len(acceptor_negative_only)=4672[0m
+=======
+[32m2022-01-30 05:09:48.821[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 05:09:49.042[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:49.094[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:49.160[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:49.211[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m21[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m21[0m, in [35mmain[0m
+    [1mtotal_gini[0m [35m[1m=[0m [1mget_total_gini_impurity[0m[1m([0m[1mscores[0m[1m)[0m
+    [36m             │                       └ [0m[36m[1m([0, 0], [0, 0], [844, 3097, 0.33658966585350103], [0, 0])[0m
+    [36m             └ [0m[36m[1m<function get_total_gini_impurity at 0x000001F8BECCC820>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m49[0m, in [35mget_total_gini_impurity[0m
+    [1mleaf_gini[0m [35m[1m=[0m [1mscore[0m[1m[[0m[34m[1m2[0m[1m][0m
+    [36m            └ [0m[36m[1m[0, 0][0m
+
+[31m[1mIndexError[0m:[1m list index out of range[0m
+[32m2022-01-30 05:09:49.323[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:49.791[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:49.829[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:49.860[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m21[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m21[0m, in [35mmain[0m
+    [1mtotal_gini[0m [35m[1m=[0m [1mget_total_gini_impurity[0m[1m([0m[1mscores[0m[1m)[0m
+    [36m             │                       └ [0m[36m[1m([0, 0], [0, 0], [0, 0], [844, 3097, 0.33658966585350103])[0m
+    [36m             └ [0m[36m[1m<function get_total_gini_impurity at 0x000001F8BECCC820>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m49[0m, in [35mget_total_gini_impurity[0m
+    [1mleaf_gini[0m [35m[1m=[0m [1mscore[0m[1m[[0m[34m[1m2[0m[1m][0m
+    [36m            └ [0m[36m[1m[0, 0][0m
+
+[31m[1mIndexError[0m:[1m list index out of range[0m
+[32m2022-01-30 05:09:50.095[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:50.122[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:50.152[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:50.186[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:50.216[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m21[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m21[0m, in [35mmain[0m
+    [1mtotal_gini[0m [35m[1m=[0m [1mget_total_gini_impurity[0m[1m([0m[1mscores[0m[1m)[0m
+    [36m             │                       └ [0m[36m[1m([0, 0], [0, 0], [0, 0], [0, 0])[0m
+    [36m             └ [0m[36m[1m<function get_total_gini_impurity at 0x000001F8BECCC820>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m49[0m, in [35mget_total_gini_impurity[0m
+    [1mleaf_gini[0m [35m[1m=[0m [1mscore[0m[1m[[0m[34m[1m2[0m[1m][0m
+    [36m            └ [0m[36m[1m[0, 0][0m
+
+[31m[1mIndexError[0m:[1m list index out of range[0m
+[32m2022-01-30 05:09:50.239[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m24[0m - [32m[1m[{'column_index': 0, 'total_gini': 0.33627210935744334}, {'column_index': 1, 'total_gini': 0.3353796054562214}, {'column_index': 2, 'total_gini': 0.3337152261485241}, {'column_index': 3, 'total_gini': 0.32976984570358414}, {'column_index': 4, 'total_gini': 0.32028353862430337}, {'column_index': 5, 'total_gini': 0.3048548792473214}, {'column_index': 6, 'total_gini': 0.2747595790155457}, {'column_index': 7, 'total_gini': None}, {'column_index': 8, 'total_gini': None}, {'column_index': 9, 'total_gini': 0.2798804790747976}, {'column_index': 10, 'total_gini': 0.25896962233161497}, {'column_index': 11, 'total_gini': 0.25651106744254615}, {'column_index': 12, 'total_gini': 0.3229150626466377}, {'column_index': 13, 'total_gini': 0.33558110517243195}, {'column_index': 14, 'total_gini': 0.336101804325249}, {'column_index': 'label', 'total_gini': None}][0m
+>>>>>>> 3c17b8d95fa1211b437becc6720ebf1310871e5c

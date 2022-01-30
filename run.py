@@ -1,32 +1,27 @@
-from src.miscellaneous.settings_getter import get_settings
 from src.miscellaneous.data_loader import *
+from src.metrics import *
 from src.miscellaneous.logger_initializer import initialize_logger
 
 
 @logger.catch
 def main():
-    SETTINGS = get_settings()
-    DONOR_DATASET_PATH = SETTINGS["DONOR_DATASET_PATH"]
-    ACCEPTOR_DATASET_PATH = SETTINGS["ACCEPTOR_DATASET_PATH"]
+    # Get datasets
+    donor_training_set, donor_test_set, acceptor_training_set, acceptor_test_set, donor_artifact_index, acceptor_artifact_index = get_datasets()
 
-    donor_artifact_index, donor_dataset = load_data(DONOR_DATASET_PATH)
-    acceptor_artifact_index, acceptor_dataset = load_data(ACCEPTOR_DATASET_PATH)
-    logger.success("Data loaded")
-
-    donor_positive_only = get_positive_only(donor_dataset)
-    donor_negative_only = get_negative_only(donor_dataset)
-    acceptor_positive_only = get_positive_only(acceptor_dataset)
-    acceptor_negative_only = get_negative_only(acceptor_dataset)
-
-    check_data_length(donor_positive_only); check_data_length(donor_negative_only)
-    check_data_length(acceptor_positive_only); check_data_length(acceptor_negative_only)
-    logger.success("Data is valid")
-
-    logger.success(f"Summary\n{len(donor_positive_only)=}\n{len(donor_negative_only)=}\n{len(acceptor_positive_only)=}\n{len(acceptor_negative_only)=}")
-
-    return donor_positive_only, donor_negative_only, acceptor_positive_only, acceptor_negative_only
-
-
+    # Under development: prepare data for the node
+    x = donor_training_set
+    labels = x["label"]
+    gini_results = list()
+    for column_index in x:
+        column_data = x[column_index]
+        scores = [a_score, c_score, g_score, t_score] = check_letters_and_labels(column_data, labels)
+        #print(f"{column_index=}{a_score=}{c_score=}{g_score=}{t_score=}")
+        for score in scores:
+            score = get_leafs_gini_impurity(score)
+        total_gini = get_total_gini_impurity(scores)
+        #logger.success(f"{total_gini=}")
+        gini_results.append({"column_index": column_index, "total_gini": total_gini})
+    logger.success(gini_results)
 
 if __name__ == "__main__":
     initialize_logger()
