@@ -240,3 +240,408 @@ len(donor_positive_only)=1116
 len(donor_negative_only)=4140
 len(acceptor_positive_only)=1116
 len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 00:49:06.399[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 00:49:06.408[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 00:49:06.446[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m31[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 00:52:41.497[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 00:52:41.516[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 00:52:41.580[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m31[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 00:54:44.989[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 00:54:44.998[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 00:54:45.062[0m | [41m[1mCRITICAL[0m | [36msrc.miscellaneous.data_loader[0m:[36mload_dataframe[0m:[36m18[0m - [41m[1mAttribute value not in set {'A', 'C', 'G', 'T'}[0m
+[32m2022-01-30 00:55:02.740[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 00:55:02.749[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 00:55:02.798[0m | [41m[1mCRITICAL[0m | [36msrc.miscellaneous.data_loader[0m:[36mload_dataframe[0m:[36m18[0m - [41m[1mAttribute value not in set {'A', 'C', 'G', 'T'}[0m
+[32m2022-01-30 01:02:09.013[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:02:09.023[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:02:09.056[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m35[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:02:56.685[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:02:56.693[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:02:56.749[0m | [41m[1mCRITICAL[0m | [36msrc.miscellaneous.data_loader[0m:[36mload_dataframe[0m:[36m18[0m - [41m[1mAttribute value not in set {'A', 'C', 'G', 'T'}[0m
+[32m2022-01-30 01:03:11.057[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:03:11.066[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:03:11.152[0m | [41m[1mCRITICAL[0m | [36msrc.miscellaneous.data_loader[0m:[36mload_dataframe[0m:[36m18[0m - [41m[1mAttribute value not in set {'A', 'C', 'G', 'T'}[0m
+[32m2022-01-30 01:07:39.254[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:07:39.263[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:07:39.301[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m35[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:12:40.096[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:12:40.105[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:12:40.136[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m35[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:12:50.924[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:12:50.933[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:12:50.972[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m35[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:13:56.963[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:13:56.971[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:13:57.019[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m44[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (3728), thread 'MainThread' (140408087324480):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+> File "[32m[0m[32m[1mtest.py[0m", line [33m44[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x7fb3381e6670>[0m
+
+  File "[32m[0m[32m[1mtest.py[0m", line [33m32[0m, in [35mmain[0m
+    [1mprint[0m[1m([0m[1mdonor_negative_only[0m[1m[[0m[36m'1'[0m[1m][0m[35m[1m.[0m[1munique[0m[1m([0m[1m)[0m[1m)[0m
+    [36m      └ [0m[36m[1marray(['AGATGCCGTCGGGCT', 'GGCACGGGTCCCGCT', 'CCCTGCAGTTTGGGT', ...,[0m
+    [36m        [0m[36m[1m       'GAGCAGCGTGCAGGA', 'TGCAGGAGTCCCAGG', 'GTCCCAGGTG...[0m
+
+[31m[1mIndexError[0m:[1m only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices[0m
+[32m2022-01-30 01:18:25.068[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:18:25.076[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:18:25.120[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:19:30.104[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:19:30.113[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:19:30.165[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m44[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (3818), thread 'MainThread' (139854660421440):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+> File "[32m[0m[32m[1mtest.py[0m", line [33m44[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x7f325d4e05e0>[0m
+
+  File "[32m[0m[32m[1mtest.py[0m", line [33m32[0m, in [35mmain[0m
+    [1mprint[0m[1m([0m[1mdonor_negative[0m[1m[[0m[1mdonor_negative[0m[35m[1m.[0m[1mcolumns[0m[1m][0m[35m[1m.[0m[1munique[0m[1m([0m[1m)[0m[1m)[0m
+    [36m      │              │              └ [0m[36m[1m<pandas._libs.properties.AxisProperty object at 0x7f325d98e6d0>[0m
+    [36m      │              └ [0m[36m[1m      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label[0m
+    [36m      │                [0m[36m[1m0     A  G  A  T  G  C  C  G  T  C  G  G  G  C  T     0[0m
+    [36m      │                [0m[36m[1m1     G  G  C...[0m
+    [36m      └ [0m[36m[1m      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label[0m
+    [36m        [0m[36m[1m0     A  G  A  T  G  C  C  G  T  C  G  G  G  C  T     0[0m
+    [36m        [0m[36m[1m1     G  G  C...[0m
+
+  File "/home/santa/anaconda3/lib/python3.8/site-packages/pandas/core/generic.py", line 5465, in __getattr__
+    return object.__getattribute__(self, name)
+                                   │     └ 'unique'
+                                   └       0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label
+                                     0     A  G  A  T  G  C  C  G  T  C  G  G  G  C  T     0
+                                     1     G  G  C...
+
+[31m[1mAttributeError[0m:[1m 'DataFrame' object has no attribute 'unique'[0m
+[32m2022-01-30 01:20:14.813[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:20:14.821[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:20:14.877[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:26:26.858[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:26:26.866[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:26:26.925[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m46[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (3937), thread 'MainThread' (140534118446912):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+> File "[32m[0m[32m[1mtest.py[0m", line [33m46[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x7fd09028b550>[0m
+
+  File "[32m[0m[32m[1mtest.py[0m", line [33m33[0m, in [35mmain[0m
+    [1ml[0m [35m[1m=[0m [1mlen[0m[1m([0m[1mdonor_negative[0m[35m[1m.[0m[1mloc[0m[1m[[0m[1m([0m[1mdonor_negative[0m[1m[[0m[36m'12'[0m[1m][0m [35m[1m==[0m [36m'N'[0m[1m)[0m [35m[1mor[0m [1m([0m[1mdonor_negative[0m[1m[[0m[36m'13'[0m[1m][0m [35m[1m==[0m [36m'N'[0m[1m)[0m[1m][0m[1m)[0m
+    [36m        │              │    │                                └ [0m[36m[1m      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label[0m
+    [36m        │              │    │                                  [0m[36m[1m0     A  G  A  T  G  C  C  G  T  C  G  G  G  C  T     0[0m
+    [36m        │              │    │                                  [0m[36m[1m1     G  G  C...[0m
+    [36m        │              │    └ [0m[36m[1m      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label[0m
+    [36m        │              │      [0m[36m[1m0     A  G  A  T  G  C  C  G  T  C  G  G  G  C  T     0[0m
+    [36m        │              │      [0m[36m[1m1     G  G  C...[0m
+    [36m        │              └ [0m[36m[1m<property object at 0x7fd0a542ce50>[0m
+    [36m        └ [0m[36m[1m      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label[0m
+    [36m          [0m[36m[1m0     A  G  A  T  G  C  C  G  T  C  G  G  G  C  T     0[0m
+    [36m          [0m[36m[1m1     G  G  C...[0m
+
+  File "/home/santa/anaconda3/lib/python3.8/site-packages/pandas/core/generic.py", line 1442, in __nonzero__
+    raise ValueError(
+
+[31m[1mValueError[0m:[1m The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().[0m
+[32m2022-01-30 01:27:39.733[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:27:39.742[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:27:39.804[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m38[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:28:00.419[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:28:00.429[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:28:00.518[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m38[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:30:18.138[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:30:18.148[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:30:18.252[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m40[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:36:49.106[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:36:49.114[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:36:49.123[0m | [41m[1mCRITICAL[0m | [36m__main__[0m:[36mmain[0m:[36m32[0m - [41m[1mAttribute value not in set {'A', 'C', 'G', 'T'}[0m
+[32m2022-01-30 01:39:19.114[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:39:19.122[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:39:19.135[0m | [41m[1mCRITICAL[0m | [36m__main__[0m:[36mmain[0m:[36m33[0m - [41m[1mAttribute value not in set {'A', 'C', 'G', 'T'}[0m
+[32m2022-01-30 01:41:24.072[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:41:24.092[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:41:24.139[0m | [41m[1mCRITICAL[0m | [36m__main__[0m:[36mmain[0m:[36m33[0m - [41m[1munsupported operand type(s) for -: 'str' and 'int'[0m
+[32m2022-01-30 01:41:46.817[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:41:46.825[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:41:46.918[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m59[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (4271), thread 'MainThread' (140573513369408):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+> File "[32m[0m[32m[1mtest.py[0m", line [33m59[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x7fd9bc4794c0>[0m
+
+  File "[32m[0m[32m[1mtest.py[0m", line [33m47[0m, in [35mmain[0m
+    [1mdonor_negative[0m [35m[1m=[0m [1mdon[0m
+
+[31m[1mNameError[0m:[1m name 'don' is not defined[0m
+[32m2022-01-30 01:46:37.243[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:46:37.252[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:46:37.346[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m50[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:48:27.176[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:48:27.185[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:48:27.240[0m | [41m[1mCRITICAL[0m | [36msrc.miscellaneous.data_loader[0m:[36mverify_missing[0m:[36m13[0m - [41m[1mAttribute value not in set: {'G', 'A', 'T', 'C'}[0m
+[32m2022-01-30 01:49:09.619[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:49:09.629[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:49:09.726[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m42[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:50:21.961[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:50:21.969[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:50:22.059[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m42[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:52:35.318[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:52:35.327[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:52:35.426[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m43[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:54:11.279[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:54:11.293[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:54:11.414[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m46[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:54:38.286[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:54:38.295[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:54:38.384[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m46[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:56:56.347[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:56:56.356[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:56:56.426[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m46[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:59:24.038[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:59:24.047[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:59:24.093[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m46[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:59:33.791[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:59:33.799[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:59:33.877[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m46[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 02:00:09.354[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 02:00:09.363[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 02:00:09.383[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m55[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (4692), thread 'MainThread' (140124770649920):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "/home/santa/anaconda3/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3080, in get_loc
+    return self._engine.get_loc(casted_key)
+           │    │               └ ('12', '13')
+           │    └ <pandas._libs.properties.CachedProperty object at 0x7f7141ed18c0>
+           └ Index(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12',
+                    '13', '14', 'label'],
+                   dtype='object')
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 4554, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 4562, in pandas._libs.hashtable.PyObjectHashTable.get_item
+
+[31m[1mKeyError[0m:[1m ('12', '13')[0m
+
+
+[1mThe above exception was the direct cause of the following exception:[0m
+
+
+[33m[1mTraceback (most recent call last):[0m
+
+> File "[32m[0m[32m[1mtest.py[0m", line [33m55[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x7f7141211820>[0m
+
+  File "[32m[0m[32m[1mtest.py[0m", line [33m34[0m, in [35mmain[0m
+    [1ml[0m [35m[1m=[0m [1mlen[0m[1m([0m[1mdf[0m[35m[1m.[0m[1mloc[0m[1m[[0m [1m([0m[1mdf[0m[1m[[0m[36m'12'[0m[1m,[0m [36m'13'[0m[1m][0m [35m[1m==[0m [36m'N'[0m[1m)[0m [1m][0m [1m)[0m
+    [36m        │  │     └ [0m[36m[1m      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label[0m
+    [36m        │  │       [0m[36m[1m0     A  G  A  T  G  C  C  G  T  C  G  G  G  C  T     0[0m
+    [36m        │  │       [0m[36m[1m1     G  G  C...[0m
+    [36m        │  └ [0m[36m[1m<property object at 0x7f71563b1e50>[0m
+    [36m        └ [0m[36m[1m      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label[0m
+    [36m          [0m[36m[1m0     A  G  A  T  G  C  C  G  T  C  G  G  G  C  T     0[0m
+    [36m          [0m[36m[1m1     G  G  C...[0m
+
+  File "/home/santa/anaconda3/lib/python3.8/site-packages/pandas/core/frame.py", line 3024, in __getitem__
+    indexer = self.columns.get_loc(key)
+              │    │               └ ('12', '13')
+              │    └ <pandas._libs.properties.AxisProperty object at 0x7f71416bd730>
+              └       0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label
+                0     A  G  A  T  G  C  C  G  T  C  G  G  G  C  T     0
+                1     G  G  C...
+  File "/home/santa/anaconda3/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3082, in get_loc
+    raise KeyError(key) from err
+                   └ ('12', '13')
+
+[31m[1mKeyError[0m:[1m ('12', '13')[0m
+[32m2022-01-30 02:00:42.548[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 02:00:42.557[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 02:00:42.575[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m55[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (4721), thread 'MainThread' (139819579819840):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "/home/santa/anaconda3/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3080, in get_loc
+    return self._engine.get_loc(casted_key)
+           │    │               └ ('12', '13')
+           │    └ <pandas._libs.properties.CachedProperty object at 0x7f2a3322a680>
+           └ Index(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12',
+                    '13', '14', 'label'],
+                   dtype='object')
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 4554, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 4562, in pandas._libs.hashtable.PyObjectHashTable.get_item
+
+[31m[1mKeyError[0m:[1m ('12', '13')[0m
+
+
+[1mThe above exception was the direct cause of the following exception:[0m
+
+
+[33m[1mTraceback (most recent call last):[0m
+
+> File "[32m[0m[32m[1mtest.py[0m", line [33m55[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x7f2a3256a820>[0m
+
+  File "[32m[0m[32m[1mtest.py[0m", line [33m34[0m, in [35mmain[0m
+    [1ml[0m [35m[1m=[0m [1mlen[0m[1m([0m[1mdf[0m[35m[1m.[0m[1mloc[0m[1m[[0m [1m([0m[1mdf[0m[1m[[0m[1m([0m[36m'12'[0m[1m,[0m [36m'13'[0m[1m)[0m[1m][0m [35m[1m==[0m [36m'N'[0m[1m)[0m [1m][0m [1m)[0m
+    [36m        │  │     └ [0m[36m[1m      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label[0m
+    [36m        │  │       [0m[36m[1m0     A  G  A  T  G  C  C  G  T  C  G  G  G  C  T     0[0m
+    [36m        │  │       [0m[36m[1m1     G  G  C...[0m
+    [36m        │  └ [0m[36m[1m<property object at 0x7f2a47707f40>[0m
+    [36m        └ [0m[36m[1m      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label[0m
+    [36m          [0m[36m[1m0     A  G  A  T  G  C  C  G  T  C  G  G  G  C  T     0[0m
+    [36m          [0m[36m[1m1     G  G  C...[0m
+
+  File "/home/santa/anaconda3/lib/python3.8/site-packages/pandas/core/frame.py", line 3024, in __getitem__
+    indexer = self.columns.get_loc(key)
+              │    │               └ ('12', '13')
+              │    └ <pandas._libs.properties.AxisProperty object at 0x7f2a32a15730>
+              └       0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label
+                0     A  G  A  T  G  C  C  G  T  C  G  G  G  C  T     0
+                1     G  G  C...
+  File "/home/santa/anaconda3/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3082, in get_loc
+    raise KeyError(key) from err
+                   └ ('12', '13')
+
+[31m[1mKeyError[0m:[1m ('12', '13')[0m
+[32m2022-01-30 10:11:29.737[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 10:11:29.746[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 10:11:29.763[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m55[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (5415), thread 'MainThread' (140009919092544):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "/home/santa/anaconda3/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3080, in get_loc
+    return self._engine.get_loc(casted_key)
+           │    │               └ ('12', '13')
+           │    └ <pandas._libs.properties.CachedProperty object at 0x7f56843d6880>
+           └ Index(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12',
+                    '13', '14', 'label'],
+                   dtype='object')
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 4554, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 4562, in pandas._libs.hashtable.PyObjectHashTable.get_item
+
+[31m[1mKeyError[0m:[1m ('12', '13')[0m
+
+
+[1mThe above exception was the direct cause of the following exception:[0m
+
+
+[33m[1mTraceback (most recent call last):[0m
+
+> File "[32m[0m[32m[1mtest.py[0m", line [33m55[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x7f5683716820>[0m
+
+  File "[32m[0m[32m[1mtest.py[0m", line [33m34[0m, in [35mmain[0m
+    [1ml[0m [35m[1m=[0m [1mlen[0m[1m([0m[1mdf[0m[35m[1m.[0m[1mloc[0m[1m[[0m [1m([0m[1mdf[0m[1m[[0m[1m([0m[36m'12'[0m[1m,[0m [36m'13'[0m[1m)[0m[1m][0m [35m[1m==[0m [36m'N'[0m[1m)[0m [1m][0m [1m)[0m
+    [36m        │  │     └ [0m[36m[1m      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label[0m
+    [36m        │  │       [0m[36m[1m0     A  G  A  T  G  C  C  G  T  C  G  G  G  C  T     0[0m
+    [36m        │  │       [0m[36m[1m1     G  G  C...[0m
+    [36m        │  └ [0m[36m[1m<property object at 0x7f56988bb090>[0m
+    [36m        └ [0m[36m[1m      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label[0m
+    [36m          [0m[36m[1m0     A  G  A  T  G  C  C  G  T  C  G  G  G  C  T     0[0m
+    [36m          [0m[36m[1m1     G  G  C...[0m
+
+  File "/home/santa/anaconda3/lib/python3.8/site-packages/pandas/core/frame.py", line 3024, in __getitem__
+    indexer = self.columns.get_loc(key)
+              │    │               └ ('12', '13')
+              │    └ <pandas._libs.properties.AxisProperty object at 0x7f5683bc2730>
+              └       0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label
+                0     A  G  A  T  G  C  C  G  T  C  G  G  G  C  T     0
+                1     G  G  C...
+  File "/home/santa/anaconda3/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3082, in get_loc
+    raise KeyError(key) from err
+                   └ ('12', '13')
+
+[31m[1mKeyError[0m:[1m ('12', '13')[0m
+[32m2022-01-30 10:11:49.638[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 10:11:49.646[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 10:11:49.713[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m47[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
