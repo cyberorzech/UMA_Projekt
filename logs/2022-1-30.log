@@ -217,3 +217,270 @@ len(donor_training_set)=3941
 len(donor_test_set)=1314
 len(acceptor_training_set)=4340
 len(acceptor_test_set)=1447[0m
+[32m2022-01-30 05:08:01.714[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 05:08:01.730[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 05:08:01.734[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 05:08:01.764[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 05:08:01.845[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mtotal_gini=0.3349112285225755[0m
+[32m2022-01-30 05:09:48.767[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 05:09:48.787[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 05:09:48.791[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 05:09:48.821[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 05:09:49.042[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:49.094[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:49.160[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:49.211[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m21[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m21[0m, in [35mmain[0m
+    [1mtotal_gini[0m [35m[1m=[0m [1mget_total_gini_impurity[0m[1m([0m[1mscores[0m[1m)[0m
+    [36m             │                       └ [0m[36m[1m([0, 0], [0, 0], [844, 3097, 0.33658966585350103], [0, 0])[0m
+    [36m             └ [0m[36m[1m<function get_total_gini_impurity at 0x000001F8BECCC820>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m49[0m, in [35mget_total_gini_impurity[0m
+    [1mleaf_gini[0m [35m[1m=[0m [1mscore[0m[1m[[0m[34m[1m2[0m[1m][0m
+    [36m            └ [0m[36m[1m[0, 0][0m
+
+[31m[1mIndexError[0m:[1m list index out of range[0m
+[32m2022-01-30 05:09:49.323[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:49.791[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:49.829[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:49.860[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m21[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m21[0m, in [35mmain[0m
+    [1mtotal_gini[0m [35m[1m=[0m [1mget_total_gini_impurity[0m[1m([0m[1mscores[0m[1m)[0m
+    [36m             │                       └ [0m[36m[1m([0, 0], [0, 0], [0, 0], [844, 3097, 0.33658966585350103])[0m
+    [36m             └ [0m[36m[1m<function get_total_gini_impurity at 0x000001F8BECCC820>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m49[0m, in [35mget_total_gini_impurity[0m
+    [1mleaf_gini[0m [35m[1m=[0m [1mscore[0m[1m[[0m[34m[1m2[0m[1m][0m
+    [36m            └ [0m[36m[1m[0, 0][0m
+
+[31m[1mIndexError[0m:[1m list index out of range[0m
+[32m2022-01-30 05:09:50.095[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:50.122[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:50.152[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:50.186[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m20[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m20[0m, in [35mmain[0m
+    [1mscore[0m [35m[1m=[0m [1mget_leafs_gini_impurity[0m[1m([0m[1mscore[0m[1m)[0m
+    [36m        │                       └ [0m[36m[1m[0, 0][0m
+    [36m        └ [0m[36m[1m<function get_leafs_gini_impurity at 0x000001F8BECCC4C0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m35[0m, in [35mget_leafs_gini_impurity[0m
+    [1mtrue_possibility[0m [35m[1m=[0m [1m([0m[1mtrue_score[0m[35m[1m/[0m[1m([0m[1mtrue_score[0m [35m[1m+[0m [1mfalse_score[0m[1m)[0m[1m)[0m[35m[1m**[0m[34m[1m2[0m
+    [36m                    │           │            └ [0m[36m[1m0[0m
+    [36m                    │           └ [0m[36m[1m0[0m
+    [36m                    └ [0m[36m[1m0[0m
+
+[31m[1mZeroDivisionError[0m:[1m division by zero[0m
+[32m2022-01-30 05:09:50.216[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m21[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1432), thread 'MainThread' (16700):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m28[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000001F8BECCCB80>[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m21[0m, in [35mmain[0m
+    [1mtotal_gini[0m [35m[1m=[0m [1mget_total_gini_impurity[0m[1m([0m[1mscores[0m[1m)[0m
+    [36m             │                       └ [0m[36m[1m([0, 0], [0, 0], [0, 0], [0, 0])[0m
+    [36m             └ [0m[36m[1m<function get_total_gini_impurity at 0x000001F8BECCC820>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\src\[0m[32m[1mmetrics.py[0m", line [33m49[0m, in [35mget_total_gini_impurity[0m
+    [1mleaf_gini[0m [35m[1m=[0m [1mscore[0m[1m[[0m[34m[1m2[0m[1m][0m
+    [36m            └ [0m[36m[1m[0, 0][0m
+
+[31m[1mIndexError[0m:[1m list index out of range[0m
+[32m2022-01-30 05:09:50.239[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m24[0m - [32m[1m[{'column_index': 0, 'total_gini': 0.33627210935744334}, {'column_index': 1, 'total_gini': 0.3353796054562214}, {'column_index': 2, 'total_gini': 0.3337152261485241}, {'column_index': 3, 'total_gini': 0.32976984570358414}, {'column_index': 4, 'total_gini': 0.32028353862430337}, {'column_index': 5, 'total_gini': 0.3048548792473214}, {'column_index': 6, 'total_gini': 0.2747595790155457}, {'column_index': 7, 'total_gini': None}, {'column_index': 8, 'total_gini': None}, {'column_index': 9, 'total_gini': 0.2798804790747976}, {'column_index': 10, 'total_gini': 0.25896962233161497}, {'column_index': 11, 'total_gini': 0.25651106744254615}, {'column_index': 12, 'total_gini': 0.3229150626466377}, {'column_index': 13, 'total_gini': 0.33558110517243195}, {'column_index': 14, 'total_gini': 0.336101804325249}, {'column_index': 'label', 'total_gini': None}][0m

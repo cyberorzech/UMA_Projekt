@@ -39,7 +39,17 @@ def get_leafs_gini_impurity(leaf_score: list):
 
 @logger.catch
 def get_total_gini_impurity(scores: list) -> float:
-    pass
+    total_true_false = 0
+    weighted_gini = 0
+    for score in scores:
+        total_true_false += score[0]
+        total_true_false += score[1]
+    for score in scores:
+        true_false_amount = score[0] + score[1]
+        leaf_gini = score[2]
+        weighted_gini += true_false_amount / total_true_false * leaf_gini
+    return weighted_gini
+
 
 
 
