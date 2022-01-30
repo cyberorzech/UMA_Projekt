@@ -1,0 +1,272 @@
+[32m2022-01-30 01:13:06.065[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:13:06.095[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:13:06.098[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:13:16.864[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:13:16.913[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:13:16.917[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:13:51.581[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:13:51.632[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:13:51.642[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:14:35.359[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m32[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (9652), thread 'MainThread' (14856):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Python310\lib\[0m[32m[1mrunpy.py[0m", line [33m196[0m, in [35m_run_module_as_main[0m
+    [35m[1mreturn[0m [1m_run_code[0m[1m([0m[1mcode[0m[1m,[0m [1mmain_globals[0m[1m,[0m [36m[1mNone[0m[1m,[0m
+    [36m       │         │     └ [0m[36m[1m{'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...[0m
+    [36m       │         └ [0m[36m[1m<code object <module> at 0x00000269CB4526B0, file "c:\Users\natan\.vscode\extensions\ms-python.python-2021.12.1559732655\pyth...[0m
+    [36m       └ [0m[36m[1m<function _run_code at 0x00000269CB45A5F0>[0m
+
+  File "[32mC:\Python310\lib\[0m[32m[1mrunpy.py[0m", line [33m86[0m, in [35m_run_code[0m
+    [1mexec[0m[1m([0m[1mcode[0m[1m,[0m [1mrun_globals[0m[1m)[0m
+    [36m     │     └ [0m[36m[1m{'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...[0m
+    [36m     └ [0m[36m[1m<code object <module> at 0x00000269CB4526B0, file "c:\Users\natan\.vscode\extensions\ms-python.python-2021.12.1559732655\pyth...[0m
+
+  File "[32mc:\Users\natan\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy\[0m[32m[1m__main__.py[0m", line [33m45[0m, in [35m<module>[0m
+    [1mcli[0m[35m[1m.[0m[1mmain[0m[1m([0m[1m)[0m
+    [36m│   └ [0m[36m[1m<function main at 0x00000269CE1E2710>[0m
+    [36m└ [0m[36m[1m<module 'debugpy.server.cli' from 'c:\\Users\\natan\\.vscode\\extensions\\ms-python.python-2021.12.1559732655\\pythonFiles\\l...[0m
+
+  File "[32mc:\Users\natan\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy/..\debugpy\server\[0m[32m[1mcli.py[0m", line [33m444[0m, in [35mmain[0m
+    [1mrun[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function run_file at 0x00000269CE1E24D0>[0m
+
+  File "[32mc:\Users\natan\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy/..\debugpy\server\[0m[32m[1mcli.py[0m", line [33m285[0m, in [35mrun_file[0m
+    [1mrunpy[0m[35m[1m.[0m[1mrun_path[0m[1m([0m[1mtarget_as_str[0m[1m,[0m [1mrun_name[0m[35m[1m=[0m[1mcompat[0m[35m[1m.[0m[1mforce_str[0m[1m([0m[36m"__main__"[0m[1m)[0m[1m)[0m
+    [36m│     │        │                       │      └ [0m[36m[1m<function force_str at 0x00000269CB8B0040>[0m
+    [36m│     │        │                       └ [0m[36m[1m<module 'debugpy.common.compat' from 'c:\\Users\\natan\\.vscode\\extensions\\ms-python.python-2021.12.1559732655\\pythonFiles...[0m
+    [36m│     │        └ [0m[36m[1m'c:\\Users\\natan\\Desktop\\UMA_Projekt\\run.py'[0m
+    [36m│     └ [0m[36m[1m<function run_path at 0x00000269CB85D5A0>[0m
+    [36m└ [0m[36m[1m<module 'runpy' from 'C:\\Python310\\lib\\runpy.py'>[0m
+
+  File "[32mC:\Python310\lib\[0m[32m[1mrunpy.py[0m", line [33m269[0m, in [35mrun_path[0m
+    [35m[1mreturn[0m [1m_run_module_code[0m[1m([0m[1mcode[0m[1m,[0m [1minit_globals[0m[1m,[0m [1mrun_name[0m[1m,[0m
+    [36m       │                │     │             └ [0m[36m[1m'__main__'[0m
+    [36m       │                │     └ [0m[36m[1mNone[0m
+    [36m       │                └ [0m[36m[1m<code object <module> at 0x00000269CE227AA0, file "c:\Users\natan\Desktop\UMA_Projekt\run.py", line 1>[0m
+    [36m       └ [0m[36m[1m<function _run_module_code at 0x00000269CB85D240>[0m
+
+  File "[32mC:\Python310\lib\[0m[32m[1mrunpy.py[0m", line [33m96[0m, in [35m_run_module_code[0m
+    [1m_run_code[0m[1m([0m[1mcode[0m[1m,[0m [1mmod_globals[0m[1m,[0m [1minit_globals[0m[1m,[0m
+    [36m│         │     │            └ [0m[36m[1mNone[0m
+    [36m│         │     └ [0m[36m[1m{'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'c:\\Users\\na...[0m
+    [36m│         └ [0m[36m[1m<code object <module> at 0x00000269CE227AA0, file "c:\Users\natan\Desktop\UMA_Projekt\run.py", line 1>[0m
+    [36m└ [0m[36m[1m<function _run_code at 0x00000269CB45A5F0>[0m
+
+  File "[32mC:\Python310\lib\[0m[32m[1mrunpy.py[0m", line [33m86[0m, in [35m_run_code[0m
+    [1mexec[0m[1m([0m[1mcode[0m[1m,[0m [1mrun_globals[0m[1m)[0m
+    [36m     │     └ [0m[36m[1m{'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'c:\\Users\\na...[0m
+    [36m     └ [0m[36m[1m<code object <module> at 0x00000269CE227AA0, file "c:\Users\natan\Desktop\UMA_Projekt\run.py", line 1>[0m
+
+  File "[32mc:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m38[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x00000269D70E1C60>[0m
+
+> File "[32mc:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m32[0m, in [35mmain[0m
+    [1mtraining_set[0m[1m,[0m [1mtest_set[0m [35m[1m=[0m [1msplit_to_training_and_test[0m[1m([0m[1mdonor_positive_only[0m[1m,[0m [1mdonor_negative_only[0m[1m)[0m
+    [36m                         │                          │                    └ [0m[36m[1marray(['AGATGCCGTCGGGCT', 'GGCACGGGTCCCGCT', 'CCCTGCAGTTTGGGT', ...,[0m
+    [36m                         │                          │                      [0m[36m[1m       'GAGCAGCGTGCAGGA', 'TGCAGGAGTCCCAGG', 'GTCCCAGGTG...[0m
+    [36m                         │                          └ [0m[36m[1marray(['CTCCGAAGTAGGATT', 'TCAGAAGGTGAGGGC', 'TTGGAAGGTTCGCAG', ...,[0m
+    [36m                         │                            [0m[36m[1m       'CCTGCTGGTACGTGG', 'TCTGCCCGTAAGCAC', 'AGGCCAGGTA...[0m
+    [36m                         └ [0m[36m[1m<function split_to_training_and_test at 0x00000269D70E17E0>[0m
+
+  File "[32mc:\Users\natan\Desktop\UMA_Projekt\src\miscellaneous\[0m[32m[1mdata_loader.py[0m", line [33m61[0m, in [35msplit_to_training_and_test[0m
+    [1mmerged_labeled_data[0m [35m[1m=[0m [1mnp[0m[35m[1m.[0m[1mconcatenate[0m[1m([0m[1mpositive_data_with_labels[0m[1m,[0m [1mnegative_data_with_labels[0m[1m)[0m
+    [36m                      │  │           │                          └ [0m[36m[1marray(['AGATGCCGTCGGGCT0', 'GGCACGGGTCCCGCT0', 'CCCTGCAGTTTGGGT0', ...,[0m
+    [36m                      │  │           │                            [0m[36m[1m       'GAGCAGCGTGCAGGA0', 'TGCAGGAGTCCCAGG0', 'GTCCC...[0m
+    [36m                      │  │           └ [0m[36m[1marray(['CTCCGAAGTAGGATT1', 'TCAGAAGGTGAGGGC1', 'TTGGAAGGTTCGCAG1', ...,[0m
+    [36m                      │  │             [0m[36m[1m       'CCTGCTGGTACGTGG1', 'TCTGCCCGTAAGCAC1', 'AGGCC...[0m
+    [36m                      │  └ [0m[36m[1m<function concatenate at 0x00000269CE4D29E0>[0m
+    [36m                      └ [0m[36m[1m<module 'numpy' from 'c:\\Users\\natan\\Desktop\\UMA_Projekt\\.venv\\lib\\site-packages\\numpy\\__init__.py'>[0m
+
+  File "<__array_function__ internals>", line 180, in concatenate
+
+[31m[1mTypeError[0m:[1m only integer scalar arrays can be converted to a scalar index[0m
+[32m2022-01-30 01:22:06.094[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:22:06.153[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:22:06.157[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:22:14.321[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m32[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (1408), thread 'MainThread' (14228):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32mC:\Python310\lib\[0m[32m[1mrunpy.py[0m", line [33m196[0m, in [35m_run_module_as_main[0m
+    [35m[1mreturn[0m [1m_run_code[0m[1m([0m[1mcode[0m[1m,[0m [1mmain_globals[0m[1m,[0m [36m[1mNone[0m[1m,[0m
+    [36m       │         │     └ [0m[36m[1m{'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...[0m
+    [36m       │         └ [0m[36m[1m<code object <module> at 0x000002BB34BA26B0, file "c:\Users\natan\.vscode\extensions\ms-python.python-2021.12.1559732655\pyth...[0m
+    [36m       └ [0m[36m[1m<function _run_code at 0x000002BB34BAA5F0>[0m
+
+  File "[32mC:\Python310\lib\[0m[32m[1mrunpy.py[0m", line [33m86[0m, in [35m_run_code[0m
+    [1mexec[0m[1m([0m[1mcode[0m[1m,[0m [1mrun_globals[0m[1m)[0m
+    [36m     │     └ [0m[36m[1m{'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...[0m
+    [36m     └ [0m[36m[1m<code object <module> at 0x000002BB34BA26B0, file "c:\Users\natan\.vscode\extensions\ms-python.python-2021.12.1559732655\pyth...[0m
+
+  File "[32mc:\Users\natan\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy\[0m[32m[1m__main__.py[0m", line [33m45[0m, in [35m<module>[0m
+    [1mcli[0m[35m[1m.[0m[1mmain[0m[1m([0m[1m)[0m
+    [36m│   └ [0m[36m[1m<function main at 0x000002BB378B2710>[0m
+    [36m└ [0m[36m[1m<module 'debugpy.server.cli' from 'c:\\Users\\natan\\.vscode\\extensions\\ms-python.python-2021.12.1559732655\\pythonFiles\\l...[0m
+
+  File "[32mc:\Users\natan\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy/..\debugpy\server\[0m[32m[1mcli.py[0m", line [33m444[0m, in [35mmain[0m
+    [1mrun[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function run_file at 0x000002BB378B24D0>[0m
+
+  File "[32mc:\Users\natan\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy/..\debugpy\server\[0m[32m[1mcli.py[0m", line [33m285[0m, in [35mrun_file[0m
+    [1mrunpy[0m[35m[1m.[0m[1mrun_path[0m[1m([0m[1mtarget_as_str[0m[1m,[0m [1mrun_name[0m[35m[1m=[0m[1mcompat[0m[35m[1m.[0m[1mforce_str[0m[1m([0m[36m"__main__"[0m[1m)[0m[1m)[0m
+    [36m│     │        │                       │      └ [0m[36m[1m<function force_str at 0x000002BB35000040>[0m
+    [36m│     │        │                       └ [0m[36m[1m<module 'debugpy.common.compat' from 'c:\\Users\\natan\\.vscode\\extensions\\ms-python.python-2021.12.1559732655\\pythonFiles...[0m
+    [36m│     │        └ [0m[36m[1m'c:\\Users\\natan\\Desktop\\UMA_Projekt\\run.py'[0m
+    [36m│     └ [0m[36m[1m<function run_path at 0x000002BB34FAD5A0>[0m
+    [36m└ [0m[36m[1m<module 'runpy' from 'C:\\Python310\\lib\\runpy.py'>[0m
+
+  File "[32mC:\Python310\lib\[0m[32m[1mrunpy.py[0m", line [33m269[0m, in [35mrun_path[0m
+    [35m[1mreturn[0m [1m_run_module_code[0m[1m([0m[1mcode[0m[1m,[0m [1minit_globals[0m[1m,[0m [1mrun_name[0m[1m,[0m
+    [36m       │                │     │             └ [0m[36m[1m'__main__'[0m
+    [36m       │                │     └ [0m[36m[1mNone[0m
+    [36m       │                └ [0m[36m[1m<code object <module> at 0x000002BB3791C3A0, file "c:\Users\natan\Desktop\UMA_Projekt\run.py", line 1>[0m
+    [36m       └ [0m[36m[1m<function _run_module_code at 0x000002BB34FAD240>[0m
+
+  File "[32mC:\Python310\lib\[0m[32m[1mrunpy.py[0m", line [33m96[0m, in [35m_run_module_code[0m
+    [1m_run_code[0m[1m([0m[1mcode[0m[1m,[0m [1mmod_globals[0m[1m,[0m [1minit_globals[0m[1m,[0m
+    [36m│         │     │            └ [0m[36m[1mNone[0m
+    [36m│         │     └ [0m[36m[1m{'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'c:\\Users\\na...[0m
+    [36m│         └ [0m[36m[1m<code object <module> at 0x000002BB3791C3A0, file "c:\Users\natan\Desktop\UMA_Projekt\run.py", line 1>[0m
+    [36m└ [0m[36m[1m<function _run_code at 0x000002BB34BAA5F0>[0m
+
+  File "[32mC:\Python310\lib\[0m[32m[1mrunpy.py[0m", line [33m86[0m, in [35m_run_code[0m
+    [1mexec[0m[1m([0m[1mcode[0m[1m,[0m [1mrun_globals[0m[1m)[0m
+    [36m     │     └ [0m[36m[1m{'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'c:\\Users\\na...[0m
+    [36m     └ [0m[36m[1m<code object <module> at 0x000002BB3791C3A0, file "c:\Users\natan\Desktop\UMA_Projekt\run.py", line 1>[0m
+
+  File "[32mc:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m38[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000002BB407B1C60>[0m
+
+> File "[32mc:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m32[0m, in [35mmain[0m
+    [1mtraining_set[0m[1m,[0m [1mtest_set[0m [35m[1m=[0m [1msplit_to_training_and_test[0m[1m([0m[1mdonor_positive_only[0m[1m,[0m [1mdonor_negative_only[0m[1m)[0m
+    [36m                         │                          │                    └ [0m[36m[1marray(['AGATGCCGTCGGGCT', 'GGCACGGGTCCCGCT', 'CCCTGCAGTTTGGGT', ...,[0m
+    [36m                         │                          │                      [0m[36m[1m       'GAGCAGCGTGCAGGA', 'TGCAGGAGTCCCAGG', 'GTCCCAGGTG...[0m
+    [36m                         │                          └ [0m[36m[1marray(['CTCCGAAGTAGGATT', 'TCAGAAGGTGAGGGC', 'TTGGAAGGTTCGCAG', ...,[0m
+    [36m                         │                            [0m[36m[1m       'CCTGCTGGTACGTGG', 'TCTGCCCGTAAGCAC', 'AGGCCAGGTA...[0m
+    [36m                         └ [0m[36m[1m<function split_to_training_and_test at 0x000002BB407B17E0>[0m
+
+  File "[32mc:\Users\natan\Desktop\UMA_Projekt\src\miscellaneous\[0m[32m[1mdata_loader.py[0m", line [33m64[0m, in [35msplit_to_training_and_test[0m
+    [1mnegative_size[0m [35m[1m=[0m [1mint[0m[1m([0m[1mnp[0m[35m[1m.[0m[1mshape[0m[1m([0m[1mnegative_data_with_labels[0m[1m[[0m[34m[1m0[0m[1m][0m[1m)[0m[1m)[0m
+    [36m                    │  │     └ [0m[36m[1marray(['AGATGCCGTCGGGCT0', 'GGCACGGGTCCCGCT0', 'CCCTGCAGTTTGGGT0', ...,[0m
+    [36m                    │  │       [0m[36m[1m       'GAGCAGCGTGCAGGA0', 'TGCAGGAGTCCCAGG0', 'GTCCC...[0m
+    [36m                    │  └ [0m[36m[1m<function shape at 0x000002BB3E498310>[0m
+    [36m                    └ [0m[36m[1m<module 'numpy' from 'c:\\Users\\natan\\Desktop\\UMA_Projekt\\.venv\\lib\\site-packages\\numpy\\__init__.py'>[0m
+
+[31m[1mTypeError[0m:[1m int() argument must be a string, a bytes-like object or a real number, not 'tuple'[0m
+[32m2022-01-30 01:22:43.366[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:22:43.382[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:22:43.388[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:23:22.294[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:23:22.311[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:23:22.316[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:23:22.333[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m35[0m - [32m[1mtraining_set=array(['GGCCCAGGTCAAGGG0', 'CCGAGCTGTGGTGAG0', 'CGGCTGGGTCTTCGC0', ...,
+       'GGGTCCTGTGGACGC0', 'CTGGTGAGTGAAGAG0', 'GATTTTGGTGGGATA0'],
+      dtype='<U16')
+test_set=array(['TGACTTTGTGAGTCC1', 'GAGAGTTGTATCTTG0', 'GGGCATTGTAACCCT0', ...,
+       'TGGATAAGTAAGTAG1', 'TTCTCTGGTGCAAGT0', 'TCATGTCGTCAGCCA0'],
+      dtype='<U16')[0m
+[32m2022-01-30 01:24:21.195[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:24:21.215[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:24:21.220[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:24:21.234[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mATCGCAGGTCAGTCT1[0m
+[32m2022-01-30 01:24:21.242[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mTTTGCCTGTTGACTG0[0m
+[32m2022-01-30 01:24:21.245[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGCCGTGAGTACCACC0[0m
+[32m2022-01-30 01:24:21.247[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGGAGAGGGTAGGTCC1[0m
+[32m2022-01-30 01:24:21.249[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mCCCCAGGGTTTTCTG0[0m
+[32m2022-01-30 01:24:21.255[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mCCCATTAGTGTAAGT0[0m
+[32m2022-01-30 01:24:21.259[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGTGCCCAGTGTTCAG0[0m
+[32m2022-01-30 01:24:21.263[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mTATAGCAGTAAGTTA1[0m
+[32m2022-01-30 01:24:21.267[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGGCCTCGGTCTTCCC0[0m
+[32m2022-01-30 01:24:21.270[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGACAAAGGTAAGAAG1[0m
+[32m2022-01-30 01:24:21.277[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mAAACCAGGTGAGTGA1[0m
+[32m2022-01-30 01:24:21.287[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mTTTGTAAGTATGACT0[0m
+[32m2022-01-30 01:24:21.289[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mTTTCCAGGTAATGAT1[0m
+[32m2022-01-30 01:24:21.292[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGAGAAAGGTAAGATT1[0m
+[32m2022-01-30 01:24:21.297[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGTAAAGGGTATGTTC1[0m
+[32m2022-01-30 01:24:21.303[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mCACTGATGTGAGTGT1[0m
+[32m2022-01-30 01:24:37.251[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:24:37.263[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:24:37.268[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:24:37.281[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGAAGAAGGTGAGGAG1[0m
+[32m2022-01-30 01:24:37.284[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGTCTGGAGTCCGGTC0[0m
+[32m2022-01-30 01:24:37.286[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGGTGCGTGTCCCTCT0[0m
+[32m2022-01-30 01:24:37.291[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mATACTTTGTGAAGTA0[0m
+[32m2022-01-30 01:24:37.301[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mATAGTAAGTTTTTTT0[0m
+[32m2022-01-30 01:24:37.304[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mACAGACGGTAACCAG1[0m
+[32m2022-01-30 01:24:37.306[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mCTGCAGGGTGAGCCA1[0m
+[32m2022-01-30 01:24:37.309[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mCTTGTAAGTCTCGGA0[0m
+[32m2022-01-30 01:24:37.313[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mTGCCAGCGTCTCTCT0[0m
+[32m2022-01-30 01:24:37.320[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGTGAGAAGTGAAGTC0[0m
+[32m2022-01-30 01:24:37.324[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mTCTCTCTGTTATAAG0[0m
+[32m2022-01-30 01:24:37.327[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mCTGATGTGTGCGTGT0[0m
+[32m2022-01-30 01:24:37.333[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGAGGCCTGTGGGGTT0[0m
+[32m2022-01-30 01:24:37.340[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGGCACAGGTGAGGCG1[0m
+[32m2022-01-30 01:24:37.343[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mACTCAAGGTGAGCCA1[0m
+[32m2022-01-30 01:24:37.346[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mTGCTAACGTAAGTGG1[0m
+[32m2022-01-30 01:24:37.352[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGTACATTGTATAAAG0[0m
+[32m2022-01-30 01:24:37.355[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mATCCGTGGTCTCACC0[0m
+[32m2022-01-30 01:24:37.357[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mCTCGTAAGTCTACCT0[0m
+[32m2022-01-30 01:24:37.362[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mACCCCAGGTGAGCCT1[0m
+[32m2022-01-30 01:24:37.370[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mCGGGGGTGTTGGCTC0[0m
+[32m2022-01-30 01:24:37.373[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mAAAAATGGTGAGAAT1[0m
+[32m2022-01-30 01:24:37.375[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGGCCAAGGTAGGCTC1[0m
+[32m2022-01-30 01:24:37.378[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGAGAGGCGTGGGAGG0[0m
+[32m2022-01-30 01:24:37.383[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mTTTCTAAGTTTAACA0[0m
+[32m2022-01-30 01:24:37.386[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGGCTCAGGTGAGGCT0[0m
+[32m2022-01-30 01:24:37.390[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGGGCTTGGTGCCCGT0[0m
+[32m2022-01-30 01:24:37.394[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mAAAGTAAGTTACACA0[0m
+[32m2022-01-30 01:24:37.403[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mTGTGTGTGTGTGTGT0[0m
+[32m2022-01-30 01:24:37.407[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGTTGGCTGTAAACAA0[0m
+[32m2022-01-30 01:24:37.410[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m36[0m - [1mGCCCAGTGTTCAGTG0[0m
+[32m2022-01-30 01:27:23.512[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:27:23.530[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:27:23.534[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:29:47.946[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 01:29:47.966[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mData is valid[0m
+[32m2022-01-30 01:29:47.969[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [32m[1mSummary
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 01:29:48.004[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m34[0m - [32m[1mPrepared data summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
