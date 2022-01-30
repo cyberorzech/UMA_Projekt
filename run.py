@@ -24,7 +24,7 @@ def main():
     check_data_length(acceptor_negative_only)
     logger.success("Data is valid")
     logger.success(
-        f"Summary\n{len(donor_positive_only)=}\n{len(donor_negative_only)=}\n{len(acceptor_positive_only)=}\n{len(acceptor_negative_only)=}"
+        f"Raw data summary:\n{len(donor_positive_only)=}\n{len(donor_negative_only)=}\n{len(acceptor_positive_only)=}\n{len(acceptor_negative_only)=}"
     )
 
     TRAINING_SET_SIZE = .75
@@ -32,7 +32,7 @@ def main():
     acceptor_training_set, acceptor_test_set = split_to_training_and_test(acceptor_positive_only, acceptor_negative_only)
     logger.success(f"Data have been prepared. Summary\n{len(donor_training_set)=}\n{len(donor_test_set)=}\n{len(acceptor_training_set)=}\n{len(acceptor_test_set)=}")
 
-    
+
 
 if __name__ == "__main__":
     initialize_logger()
