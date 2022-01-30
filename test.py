@@ -28,6 +28,10 @@ def main():
     # print(type(donor_positive))
     # print(len(donor_positive))
     # print(donor_positive.head())
+    # X = donor_positive[donor_positive.columns[:-1]]
+    # print(X.head())
+    # X = one_hot(X, X.columns)
+    # print(X.head())
     
     df = load_dataframe(donor_negative_only, 0)
     # [print(df[c].unique()) for c in df.columns]
@@ -39,6 +43,11 @@ def main():
     donor_negative = df.loc[ (df['12'] != 'N') & (df['13'] != 'N') ]
     # print(type(donor_negative))
     # [print(donor_negative[c].unique()) for c in donor_negative.columns]
+    
+    donor_training, donor_test = split_to_training_and_test(donor_positive.to_numpy(), donor_negative.to_numpy())
+    print(type(donor_training))
+    df = pd.DataFrame(donor_training)
+    print(df.head())
     
     df = load_dataframe(acceptor_positive_only, 1)
     # [print(df[c].unique()) for c in df.columns]

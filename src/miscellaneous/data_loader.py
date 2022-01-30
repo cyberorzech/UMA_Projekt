@@ -5,6 +5,12 @@ import pandas as pd
 from src.miscellaneous.settings_getter import get_settings
 
 
+    
+@logger.catch
+def one_hot(df: pd.DataFrame, cols: list) -> pd.DataFrame:
+    x = pd.get_dummies(df, columns = cols)
+    return x
+    
 @logger.catch
 def verify_missing(df: pd.DataFrame):
     nukes = {'A', 'C', 'G', 'T'}

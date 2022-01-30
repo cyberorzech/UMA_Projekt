@@ -1201,3 +1201,531 @@ len(donor_positive)=1116
 len(donor_negative)=4139
 len(acceptor_positive_only)=1116
 len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 16:54:46.541[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 16:54:46.550[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 16:54:46.617[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m50[0m - [32m[1mSummary
+len(donor_positive)=1116
+len(donor_negative)=4139
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 16:56:31.423[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 16:56:31.432[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 16:56:31.521[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m53[0m - [32m[1mSummary
+len(donor_positive)=1116
+len(donor_negative)=4139
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 16:56:46.291[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 16:56:46.300[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 16:56:46.449[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m53[0m - [32m[1mSummary
+len(donor_positive)=1116
+len(donor_negative)=4139
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 16:58:09.165[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 16:58:09.174[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 16:58:09.347[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m54[0m - [32m[1mSummary
+len(donor_positive)=1116
+len(donor_negative)=4139
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 16:58:35.680[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 16:58:35.700[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 16:58:35.756[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m62[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (16005), thread 'MainThread' (140566972671808):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+> File "[32m[0m[32m[1mtest.py[0m", line [33m62[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x7fd8366ce670>[0m
+
+  File "[32m[0m[32m[1mtest.py[0m", line [33m31[0m, in [35mmain[0m
+    [1mX[0m [35m[1m=[0m [1mdonor_positive[0m[1m[[0m[1m:[0m[1m,[0m [1m:[0m[35m[1m-[0m[34m[1m1[0m[1m][0m
+    [36m    └ [0m[36m[1m      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label[0m
+    [36m      [0m[36m[1m0     C  T  C  C  G  A  A  G  T  A  G  G  A  T  T     1[0m
+    [36m      [0m[36m[1m1     T  C  A...[0m
+
+  File "/home/santa/anaconda3/lib/python3.8/site-packages/pandas/core/frame.py", line 3024, in __getitem__
+    indexer = self.columns.get_loc(key)
+              │    │               └ (slice(None, None, None), slice(None, -1, None))
+              │    └ <pandas._libs.properties.AxisProperty object at 0x7fd836b768e0>
+              └       0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label
+                0     C  T  C  C  G  A  A  G  T  A  G  G  A  T  T     1
+                1     T  C  A...
+  File "/home/santa/anaconda3/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3080, in get_loc
+    return self._engine.get_loc(casted_key)
+           │    │               └ (slice(None, None, None), slice(None, -1, None))
+           │    └ <pandas._libs.properties.CachedProperty object at 0x7fd837387e00>
+           └ Index(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12',
+                    '13', '14', 'label'],
+                   dtype='object')
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 75, in pandas._libs.index.IndexEngine.get_loc
+
+[31m[1mTypeError[0m:[1m '(slice(None, None, None), slice(None, -1, None))' is an invalid key[0m
+[32m2022-01-30 17:00:20.175[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 17:00:20.183[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 17:00:20.358[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m54[0m - [32m[1mSummary
+len(donor_positive)=1116
+len(donor_negative)=4139
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 17:21:23.905[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 17:21:23.918[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 17:21:24.091[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m55[0m - [32m[1mSummary
+len(donor_positive)=1116
+len(donor_negative)=4139
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 17:22:29.009[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 17:22:29.018[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 17:22:29.038[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m63[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (16599), thread 'MainThread' (140107407533888):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+> File "[32m[0m[32m[1mtest.py[0m", line [33m63[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x7f6d36356700>[0m
+
+  File "[32m[0m[32m[1mtest.py[0m", line [33m48[0m, in [35mmain[0m
+    [1mprint[0m[1m([0m[1mdonor_training[0m[35m[1m.[0m[1mhead[0m[1m([0m[1m)[0m[1m)[0m
+    [36m      └ [0m[36m[1marray(['21', '90', '20', '91', '81', '100', 'label0', '131', '120', '61',[0m
+    [36m        [0m[36m[1m       '110', '00', '40', '11', '30', '80', '51', '...[0m
+
+[31m[1mAttributeError[0m:[1m 'numpy.ndarray' object has no attribute 'head'[0m
+[32m2022-01-30 17:22:52.575[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 17:22:52.583[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 17:22:52.627[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m55[0m - [32m[1mSummary
+len(donor_positive)=1116
+len(donor_negative)=4139
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 17:23:36.815[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 17:23:36.823[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 17:23:36.868[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m55[0m - [32m[1mSummary
+len(donor_positive)=1116
+len(donor_negative)=4139
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 17:25:08.631[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 17:25:08.640[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 17:25:08.689[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m57[0m - [32m[1mSummary
+len(donor_positive)=1116
+len(donor_negative)=4139
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 17:31:59.461[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 17:31:59.470[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m23[0m - [32m[1mData is valid[0m
+[32m2022-01-30 17:31:59.782[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m57[0m - [32m[1mSummary
+len(donor_positive)=1116
+len(donor_negative)=4139
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:01:21.045[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:01:21.053[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:01:21.054[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:01:21.082[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:01:21.165[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m13[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (17430), thread 'MainThread' (139921583540032):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+> File "[32m[0m[32m[1mtest2.py[0m", line [33m13[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x7f41f23c6670>[0m
+
+  File "[32m[0m[32m[1mtest2.py[0m", line [33m8[0m, in [35mmain[0m
+    [1mdonor_train[0m[1m,[0m [1mdonor_test[0m [35m[1m=[0m [1mget_datasets[0m[1m([0m[1m)[0m
+    [36m                          └ [0m[36m[1m<function get_datasets at 0x7f41f23c6160>[0m
+
+[31m[1mValueError[0m:[1m too many values to unpack (expected 2)[0m
+[32m2022-01-30 18:02:40.428[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:02:40.437[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:02:40.437[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:02:40.459[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:03:01.557[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:03:01.565[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:03:01.566[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:03:01.590[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:03:01.676[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:03:01.684[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:03:01.684[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:03:01.706[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:04:03.807[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:04:03.816[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:04:03.817[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:04:03.841[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:04:36.348[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:04:36.356[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:04:36.357[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:04:36.378[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:04:36.466[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m14[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (17527), thread 'MainThread' (140391920707392):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+> File "[32m[0m[32m[1mtest2.py[0m", line [33m14[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x7faf7483f670>[0m
+
+  File "[32m[0m[32m[1mtest2.py[0m", line [33m9[0m, in [35mmain[0m
+    [1mprint[0m[1m([0m[1mdata[0m[1m[[0m[34m[1m4[0m[1m][0m[35m[1m.[0m[1mhead[0m[1m([0m[1m)[0m[1m)[0m
+    [36m      └ [0m[36m[1m(      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label[0m
+    [36m        [0m[36m[1m0     T  C  T  T  C  C  A  G  T  C  A  C  A  C  A     0[0m
+    [36m        [0m[36m[1m1     C  C  ...[0m
+
+[31m[1mAttributeError[0m:[1m 'numpy.str_' object has no attribute 'head'[0m
+[32m2022-01-30 18:04:58.892[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:04:58.901[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:04:58.901[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:04:58.928[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:10:35.220[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:10:35.228[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:10:35.229[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:10:35.253[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:10:35.384[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mmain[0m:[36m12[0m - [31m[1mAn error has been caught in function 'main', process 'MainProcess' (17622), thread 'MainThread' (139902364866368):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+  File "[32m[0m[32m[1mtest2.py[0m", line [33m17[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x7f3d78b69670>[0m
+
+> File "[32m[0m[32m[1mtest2.py[0m", line [33m12[0m, in [35mmain[0m
+    [1mX[0m [35m[1m=[0m [1mone_hot[0m[1m([0m[1mdata[0m[1m[[0m[34m[1m0[0m[1m][0m[1m)[0m
+    [36m    │       └ [0m[36m[1m(      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 label[0m
+    [36m    │         [0m[36m[1m0     C  A  C  G  T  A  A  G  T  G  A  T  C  T  T     0[0m
+    [36m    │         [0m[36m[1m1     T  G  ...[0m
+    [36m    └ [0m[36m[1m<function one_hot at 0x7f3d78b61280>[0m
+
+[31m[1mTypeError[0m:[1m one_hot() missing 1 required positional argument: 'cols'[0m
+[32m2022-01-30 18:11:28.334[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:11:28.343[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:11:28.343[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:11:28.368[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:18:23.074[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:18:23.083[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:18:23.083[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:18:23.116[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:18:47.316[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:18:47.325[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:18:47.325[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:18:47.349[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:19:45.955[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:19:45.965[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:19:45.965[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:19:45.993[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:20:04.753[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:20:04.762[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:20:04.762[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:20:04.787[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:27:45.753[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:27:45.776[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:27:45.776[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:27:45.827[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:28:13.716[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:28:13.726[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:28:13.726[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:28:13.758[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:28:20.152[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:28:20.174[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:28:20.174[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:28:20.203[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:28:29.701[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:28:29.711[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:28:29.712[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:28:29.743[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:28:32.704[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:28:32.718[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:28:32.719[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:28:32.754[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:49:03.941[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:49:03.953[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:49:03.953[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:49:03.984[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:49:33.573[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:49:33.581[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:49:33.582[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:49:33.615[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 18:49:37.622[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 18:49:37.631[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 18:49:37.631[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 18:49:37.655[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 19:27:58.152[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 19:27:58.161[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 19:27:58.161[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 19:27:58.186[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 19:27:58.451[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m32[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (19114), thread 'MainThread' (139873295394624):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+> File "[32m[0m[32m[1mtest2.py[0m", line [33m32[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x7f36b19b3430>[0m
+
+  File "[32m[0m[32m[1mtest2.py[0m", line [33m26[0m, in [35mmain[0m
+    [1mtree[0m [35m[1m=[0m [1mskl[0m[35m[1m.[0m[1mDecisionTreeClassifier[0m[1m([0m[1mrandom_state[0m [35m[1m=[0m [34m[1m42[0m[1m)[0m
+    [36m       └ [0m[36m[1m<module 'sklearn' from '/home/santa/anaconda3/lib/python3.8/site-packages/sklearn/__init__.py'>[0m
+
+[31m[1mAttributeError[0m:[1m module 'sklearn' has no attribute 'DecisionTreeClassifier'[0m
+[32m2022-01-30 19:30:52.005[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 19:30:52.014[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 19:30:52.014[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 19:30:52.038[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 19:30:52.294[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m32[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (19182), thread 'MainThread' (139919394867008):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+> File "[32m[0m[32m[1mtest2.py[0m", line [33m32[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x7f416d595430>[0m
+
+  File "[32m[0m[32m[1mtest2.py[0m", line [33m26[0m, in [35mmain[0m
+    [1mtree[0m [35m[1m=[0m [1mskl[0m[35m[1m.[0m[1mtree[0m[35m[1m.[0m[1mDecisionTreeClassifier[0m[1m([0m[1mrandom_state[0m [35m[1m=[0m [34m[1m42[0m[1m)[0m
+    [36m       └ [0m[36m[1m<module 'sklearn' from '/home/santa/anaconda3/lib/python3.8/site-packages/sklearn/__init__.py'>[0m
+
+[31m[1mAttributeError[0m:[1m module 'sklearn' has no attribute 'tree'[0m
+[32m2022-01-30 19:32:05.316[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 19:32:05.325[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 19:32:05.326[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 19:32:05.352[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 19:41:51.999[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 19:41:52.008[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 19:41:52.008[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 19:41:52.040[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 19:41:52.538[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m47[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (19474), thread 'MainThread' (140044015535936):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+> File "[32m[0m[32m[1mtest2.py[0m", line [33m47[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x7f5e67155d30>[0m
+
+  File "[32m[0m[32m[1mtest2.py[0m", line [33m37[0m, in [35mmain[0m
+    [1mplot_tree[0m[1m([0m[1mtree[0m[1m,[0m
+    [36m│         └ [0m[36m[1mDecisionTreeClassifier(random_state=42)[0m
+    [36m└ [0m[36m[1m<function plot_tree at 0x7f5e6717db80>[0m
+
+  File "/home/santa/anaconda3/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+           │  │       └ {'filled': True, 'rounded': True, 'class_names': ['Yes', 'No'], 'feature_names': Index(['0_A', '0_C', '0_G', '0_T', '1_A', '1...
+           │  └ (DecisionTreeClassifier(random_state=42),)
+           └ <function plot_tree at 0x7f5e67264d30>
+  File "/home/santa/anaconda3/lib/python3.8/site-packages/sklearn/tree/_export.py", line 181, in plot_tree
+    check_is_fitted(decision_tree)
+    │               └ DecisionTreeClassifier(random_state=42)
+    └ <function check_is_fitted at 0x7f5e67b6ef70>
+  File "/home/santa/anaconda3/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+           │  │       └ {}
+           │  └ (DecisionTreeClassifier(random_state=42),)
+           └ <function check_is_fitted at 0x7f5e67b6edc0>
+  File "/home/santa/anaconda3/lib/python3.8/site-packages/sklearn/utils/validation.py", line 1041, in check_is_fitted
+    raise NotFittedError(msg % {'name': type(estimator).__name__})
+          │              │                   └ DecisionTreeClassifier(random_state=42)
+          │              └ "This %(name)s instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator."
+          └ <class 'sklearn.exceptions.NotFittedError'>
+
+[31m[1msklearn.exceptions.NotFittedError[0m:[1m This DecisionTreeClassifier instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.[0m
+[32m2022-01-30 19:42:47.768[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m120[0m - [32m[1mData loaded[0m
+[32m2022-01-30 19:42:47.776[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m131[0m - [32m[1mData is valid[0m
+[32m2022-01-30 19:42:47.777[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m132[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 19:42:47.801[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m139[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
