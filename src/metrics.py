@@ -1,3 +1,4 @@
+from decimal import DivisionByZero
 from loguru import logger
 
 @logger.catch
@@ -30,25 +31,30 @@ def check_letters_and_labels(column_data, labels):
 
 @logger.catch
 def get_leafs_gini_impurity(leaf_score: list):
-    true_score = leaf_score[0]
-    false_score = leaf_score[1]
-    true_possibility = (true_score/(true_score + false_score))**2
-    false_possibility = (false_score/(true_score + false_score))**2
-    gini = 1 - true_possibility - false_possibility
-    return leaf_score.append(gini)
+    try:
+        true_score = leaf_score[0]
+        false_score = leaf_score[1]
+        if true_score + false_score == 0:
+            raise ValueError()
+        true_possibility = (true_score/(true_score + false_score))**2
+        false_possibility = (false_score/(true_score + false_score))**2
+        gini = 1 - true_possibility - false_possibility
+        return leaf_score.append(gini)
+    except ValueError:
+        return leaf_score.append(1)
 
 @logger.catch
 def get_total_gini_impurity(scores: list) -> float:
-    total_true_false = 0
-    weighted_gini = 0
-    for score in scores:
-        total_true_false += score[0]
-        total_true_false += score[1]
-    for score in scores:
-        true_false_amount = score[0] + score[1]
-        leaf_gini = score[2]
-        weighted_gini += true_false_amount / total_true_false * leaf_gini
-    return weighted_gini
+        total_true_false = 0
+        weighted_gini = 0
+        for score in scores:
+            total_true_false += score[0]
+            total_true_false += score[1]
+        for score in scores:
+            true_false_amount = score[0] + score[1]
+            leaf_gini = score[2]
+            weighted_gini += true_false_amount / total_true_false * leaf_gini
+        return weighted_gini
 
 
 

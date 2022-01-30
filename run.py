@@ -13,9 +13,10 @@ def main():
     labels = x["label"]
     gini_results = list()
     for column_index in x:
+        logger.info(f"Begin processing {column_index} column")
         column_data = x[column_index]
         scores = [a_score, c_score, g_score, t_score] = check_letters_and_labels(column_data, labels)
-        #print(f"{column_index=}{a_score=}{c_score=}{g_score=}{t_score=}")
+        logger.info(f"{column_index=}{a_score=}{c_score=}{g_score=}{t_score=}")
         for score in scores:
             score = get_leafs_gini_impurity(score)
         total_gini = get_total_gini_impurity(scores)
