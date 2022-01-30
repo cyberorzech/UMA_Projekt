@@ -2614,3 +2614,132 @@ len(acceptor_test_set)=1447[0m
 [32m2022-01-30 14:03:38.530[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=6a_score=[73, 929]c_score=[26, 301]g_score=[672, 898]t_score=[67, 975][0m
 [32m2022-01-30 14:03:39.193[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 7 column[0m
 [32m2022-01-30 14:03:39.342[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=7a_score=[0, 0]c_score=[0, 0]g_score=[838, 3103]t_score=[0, 0][0m
+[32m2022-01-30 15:20:40.867[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 15:20:40.914[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 15:20:40.917[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 15:20:40.950[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 15:20:41.047[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 0 column[0m
+[32m2022-01-30 15:20:45.091[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=0a_score=[204, 721]c_score=[220, 769]g_score=[226, 910]t_score=[174, 717][0m
+[32m2022-01-30 15:20:45.515[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 1 column[0m
+[32m2022-01-30 15:20:46.407[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=1a_score=[240, 759]c_score=[181, 702]g_score=[219, 998]t_score=[184, 658][0m
+[32m2022-01-30 15:20:50.379[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 2 column[0m
+[32m2022-01-30 15:20:51.255[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=2a_score=[231, 683]c_score=[213, 671]g_score=[192, 956]t_score=[188, 807][0m
+[32m2022-01-30 15:20:51.259[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 3 column[0m
+[32m2022-01-30 15:20:52.563[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=3a_score=[235, 597]c_score=[245, 725]g_score=[196, 1161]t_score=[148, 634][0m
+[32m2022-01-30 15:20:52.568[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 4 column[0m
+[32m2022-01-30 15:20:54.467[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=4a_score=[265, 674]c_score=[302, 647]g_score=[149, 823]t_score=[108, 973][0m
+[32m2022-01-30 15:20:54.472[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 5 column[0m
+[32m2022-01-30 15:20:55.646[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=5a_score=[492, 791]c_score=[107, 710]g_score=[110, 1030]t_score=[115, 586][0m
+[32m2022-01-30 15:20:55.653[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 6 column[0m
+[32m2022-01-30 15:20:56.606[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=6a_score=[74, 904]c_score=[27, 312]g_score=[663, 887]t_score=[60, 1014][0m
+[32m2022-01-30 15:20:56.611[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 7 column[0m
+[32m2022-01-30 15:21:07.539[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=7a_score=[0, 0]c_score=[0, 0]g_score=[824, 3117]t_score=[0, 0][0m
+[32m2022-01-30 15:25:44.238[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 15:25:44.259[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 15:25:44.264[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 15:25:44.299[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 15:25:44.373[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 0 column[0m
+[32m2022-01-30 15:25:44.393[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=0a_score=[213, 693]c_score=[210, 787]g_score=[228, 918]t_score=[170, 722][0m
+[32m2022-01-30 15:25:44.399[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 1 column[0m
+[32m2022-01-30 15:25:44.432[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=1a_score=[234, 757]c_score=[176, 737]g_score=[226, 969]t_score=[185, 657][0m
+[32m2022-01-30 15:25:44.439[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 2 column[0m
+[32m2022-01-30 15:25:44.466[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=2a_score=[218, 685]c_score=[217, 666]g_score=[193, 959]t_score=[193, 810][0m
+[32m2022-01-30 15:25:44.469[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 3 column[0m
+[32m2022-01-30 15:25:44.498[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=3a_score=[239, 619]c_score=[244, 730]g_score=[193, 1127]t_score=[145, 644][0m
+[32m2022-01-30 15:25:44.506[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 4 column[0m
+[32m2022-01-30 15:25:44.536[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=4a_score=[270, 652]c_score=[294, 662]g_score=[157, 832]t_score=[100, 974][0m
+[32m2022-01-30 15:25:44.542[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 5 column[0m
+[32m2022-01-30 15:25:44.568[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=5a_score=[498, 760]c_score=[95, 718]g_score=[111, 1039]t_score=[117, 603][0m
+[32m2022-01-30 15:25:44.577[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 6 column[0m
+[32m2022-01-30 15:25:44.609[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=6a_score=[75, 894]c_score=[29, 295]g_score=[660, 920]t_score=[57, 1011][0m
+[32m2022-01-30 15:25:44.614[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 7 column[0m
+[32m2022-01-30 15:25:44.653[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=7a_score=[0, 0]c_score=[0, 0]g_score=[821, 3120]t_score=[0, 0][0m
+[32m2022-01-30 15:25:44.656[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 8 column[0m
+[32m2022-01-30 15:25:44.682[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=8a_score=[0, 0]c_score=[0, 0]g_score=[0, 0]t_score=[821, 3120][0m
+[32m2022-01-30 15:25:44.684[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 9 column[0m
+[32m2022-01-30 15:25:44.714[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=9a_score=[436, 439]c_score=[22, 734]g_score=[345, 1277]t_score=[18, 670][0m
+[32m2022-01-30 15:25:44.717[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 10 column[0m
+[32m2022-01-30 15:25:44.744[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=10a_score=[599, 639]c_score=[59, 792]g_score=[88, 859]t_score=[75, 830][0m
+[32m2022-01-30 15:25:44.747[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 11 column[0m
+[32m2022-01-30 15:25:44.774[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=11a_score=[51, 682]c_score=[40, 815]g_score=[688, 841]t_score=[42, 782][0m
+[32m2022-01-30 15:25:44.778[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 12 column[0m
+[32m2022-01-30 15:25:44.804[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=12a_score=[139, 687]c_score=[144, 771]g_score=[171, 894]t_score=[367, 768][0m
+[32m2022-01-30 15:25:44.811[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 13 column[0m
+[32m2022-01-30 15:25:44.834[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=13a_score=[206, 711]c_score=[186, 731]g_score=[287, 1045]t_score=[142, 633][0m
+[32m2022-01-30 15:25:44.841[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 14 column[0m
+[32m2022-01-30 15:25:44.865[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=14a_score=[175, 736]c_score=[221, 715]g_score=[220, 881]t_score=[205, 788][0m
+[32m2022-01-30 15:25:44.868[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing label column[0m
+[32m2022-01-30 15:25:44.880[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index='label'a_score=[0, 0]c_score=[0, 0]g_score=[0, 0]t_score=[0, 0][0m
+[32m2022-01-30 15:25:44.883[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1m[{'column_index': 0, 'total_gini': 0.3293229044820115}, {'column_index': 1, 'total_gini': 0.3290689259773115}, {'column_index': 2, 'total_gini': 0.32761774735108107}, {'column_index': 3, 'total_gini': 0.32399571509674435}, {'column_index': 4, 'total_gini': 0.31326282023493246}, {'column_index': 5, 'total_gini': 0.295879843446993}, {'column_index': 6, 'total_gini': 0.27092668361541566}, {'column_index': 7, 'total_gini': 0.32984877617272934}, {'column_index': 8, 'total_gini': 0.32984877617272934}, {'column_index': 9, 'total_gini': 0.2685890175480522}, {'column_index': 10, 'total_gini': 0.2601844935297747}, {'column_index': 11, 'total_gini': 0.2557025859079562}, {'column_index': 12, 'total_gini': 0.3191177890183587}, {'column_index': 13, 'total_gini': 0.3294285637376903}, {'column_index': 14, 'total_gini': 0.32931806895310767}, {'column_index': 'label', 'total_gini': 0}][0m
+[32m2022-01-30 15:32:41.585[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 15:32:41.622[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 15:32:41.626[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 15:32:41.661[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 15:32:41.764[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 0 column[0m
+[32m2022-01-30 15:32:43.128[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=0a_score=[217, 692]c_score=[204, 791]g_score=[235, 903]t_score=[177, 722][0m
+[32m2022-01-30 15:32:43.133[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 1 column[0m
+[32m2022-01-30 15:32:43.969[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=1a_score=[240, 741]c_score=[183, 697]g_score=[222, 1023]t_score=[188, 647][0m
+[32m2022-01-30 15:32:43.974[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 2 column[0m
+[32m2022-01-30 15:32:44.917[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=2a_score=[221, 685]c_score=[214, 649]g_score=[204, 955]t_score=[194, 819][0m
+[32m2022-01-30 15:32:44.921[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 3 column[0m
+[32m2022-01-30 15:32:45.568[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=3a_score=[248, 588]c_score=[247, 745]g_score=[207, 1147]t_score=[131, 628][0m
+[32m2022-01-30 15:32:45.578[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 4 column[0m
+[32m2022-01-30 15:32:46.554[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=4a_score=[291, 659]c_score=[292, 631]g_score=[150, 848]t_score=[100, 970][0m
+[32m2022-01-30 15:32:46.558[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 5 column[0m
+[32m2022-01-30 15:32:47.243[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=5a_score=[508, 782]c_score=[101, 716]g_score=[113, 1019]t_score=[111, 591][0m
+[32m2022-01-30 15:32:47.247[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 6 column[0m
+[32m2022-01-30 15:32:48.150[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=6a_score=[75, 907]c_score=[26, 308]g_score=[673, 899]t_score=[59, 994][0m
+[32m2022-01-30 15:32:48.154[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 7 column[0m
+[32m2022-01-30 15:32:56.568[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=7a_score=[0, 0]c_score=[0, 0]g_score=[833, 3108]t_score=[0, 0][0m
+[32m2022-01-30 15:34:43.422[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 15:34:43.462[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 15:34:43.465[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 15:34:43.500[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 15:34:43.598[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 0 column[0m
+[32m2022-01-30 15:34:45.380[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=0a_score=[218, 679]c_score=[204, 798]g_score=[236, 918]t_score=[182, 706][0m
+[32m2022-01-30 15:34:45.388[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 1 column[0m
+[32m2022-01-30 15:34:46.312[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=1a_score=[238, 739]c_score=[183, 705]g_score=[225, 1001]t_score=[194, 656][0m
+[32m2022-01-30 15:34:46.317[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 2 column[0m
+[32m2022-01-30 15:34:46.897[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=2a_score=[219, 670]c_score=[235, 647]g_score=[198, 976]t_score=[188, 808][0m
+[32m2022-01-30 15:34:46.902[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 3 column[0m
+[32m2022-01-30 15:34:48.404[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=3a_score=[239, 596]c_score=[256, 726]g_score=[197, 1134]t_score=[148, 645][0m
+[32m2022-01-30 15:34:48.408[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 4 column[0m
+[32m2022-01-30 15:34:49.595[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=4a_score=[280, 671]c_score=[300, 653]g_score=[159, 802]t_score=[101, 975][0m
+[32m2022-01-30 15:34:49.599[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 5 column[0m
+[32m2022-01-30 15:34:50.465[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=5a_score=[506, 794]c_score=[105, 716]g_score=[107, 1015]t_score=[122, 576][0m
+[32m2022-01-30 15:34:50.469[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 6 column[0m
+[32m2022-01-30 15:34:51.024[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=6a_score=[78, 925]c_score=[26, 306]g_score=[673, 870]t_score=[63, 1000][0m
+[32m2022-01-30 15:34:51.037[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m16[0m - [1mBegin processing 7 column[0m
+[32m2022-01-30 15:34:58.124[0m | [1mINFO    [0m | [36m__main__[0m:[36mmain[0m:[36m19[0m - [1mcolumn_index=7a_score=[0, 0]c_score=[0, 0]g_score=[840, 3101]t_score=[0, 0][0m
