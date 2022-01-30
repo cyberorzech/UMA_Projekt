@@ -23,10 +23,14 @@ def main():
     logger.success("Data is valid")
 
     print(donor_positive_only[0:5])
-    df = load_dataframe(donor_positive_only, 1)
-    print(type(df))
-    print(len(df))
-    print(df.head())
+    donor_positive = load_dataframe(donor_positive_only, 1)
+    print(type(donor_positive))
+    print(len(donor_positive))
+    print(donor_positive.head())
+    
+    # donor_negative = load_dataframe(donor_negative_only, 0)
+    # acceptor_positive = load_dataframe(acceptor_positive_only, 1)
+    # acceptor_negative = load_dataframe(acceptor_negative_only, 0)
 
     logger.success(f"Summary\n{len(donor_positive_only)=}\n{len(donor_negative_only)=}\n{len(acceptor_positive_only)=}\n{len(acceptor_negative_only)=}")
 

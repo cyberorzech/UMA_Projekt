@@ -1,1 +1,5 @@
 .venv
+__pycache__
+logs
+src/__pycache__
+src/miscellaneous/__pycache__
