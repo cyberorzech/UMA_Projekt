@@ -58,3 +58,50 @@ len(donor_training_set)=3941
 len(donor_test_set)=1314
 len(acceptor_training_set)=4340
 len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:14:56.542[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mget_sets[0m:[36m13[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:14:56.578[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mget_sets[0m:[36m24[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:14:56.584[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mget_sets[0m:[36m25[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 04:14:56.629[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mget_sets[0m:[36m32[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:33:08.744[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36m<module>[0m:[36m23[0m - [31m[1mAn error has been caught in function '<module>', process 'MainProcess' (15388), thread 'MainThread' (7552):[0m
+[33m[1mTraceback (most recent call last):[0m
+
+> File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m23[0m, in [35m<module>[0m
+    [1mmain[0m[1m([0m[1m)[0m
+    [36m└ [0m[36m[1m<function main at 0x000002090C22C3A0>[0m
+
+  File "[32mC:\Users\natan\Desktop\UMA_Projekt\[0m[32m[1mrun.py[0m", line [33m11[0m, in [35mmain[0m
+    [1mdonor_training_set[0m[1m,[0m [1mdonor_test_set[0m[1m,[0m [1macceptor_training_set[0m[1m,[0m [1macceptor_test_set[0m[1m,[0m [1mdonor_artifact_index[0m[1m,[0m [1macceptor_artifact_index[0m [35m[1m=[0m [1mget_sets[0m[1m([0m[1m)[0m
+
+[31m[1mNameError[0m:[1m name 'get_sets' is not defined[0m
+[32m2022-01-30 04:33:33.026[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:33:33.046[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:33:33.050[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 04:33:33.082[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:33:45.296[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:33:45.309[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:33:45.311[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 04:33:45.353[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
