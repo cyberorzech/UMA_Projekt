@@ -32,11 +32,12 @@ def main():
     df = load_dataframe(donor_negative_only, 0)
     # [print(df[c].unique()) for c in df.columns]
     # l = len(df.loc[ (df[('12', '13')] == 'N') ] )
-    l = len(df.loc[ (df['12'] == 'N') | (df['13'] == 'N') ] )
-    print(l)
-    missing = (df.loc[ (df['12'] == 'N') | (df['13'] == 'N') ] )
-    print(missing)
+    # l = len(df.loc[ (df['12'] == 'N') | (df['13'] == 'N') ] )
+    # print(l)
+    # missing = (df.loc[ (df['12'] == 'N') | (df['13'] == 'N') ] )
+    # print(missing)
     donor_negative = df.loc[ (df['12'] != 'N') & (df['13'] != 'N') ]
+    # print(type(donor_negative))
     # [print(donor_negative[c].unique()) for c in donor_negative.columns]
     
     df = load_dataframe(acceptor_positive_only, 1)
@@ -44,9 +45,9 @@ def main():
     
     # acceptor_negative = load_dataframe(acceptor_negative_only, 0)
 
-    logger.success(f"Summary\n{len(donor_positive_only)=}\n{len(donor_negative_only)=}\n{len(acceptor_positive_only)=}\n{len(acceptor_negative_only)=}")
+    logger.success(f"Summary\n{len(donor_positive)=}\n{len(donor_negative)=}\n{len(acceptor_positive_only)=}\n{len(acceptor_negative_only)=}")
 
-    return donor_positive_only, donor_negative_only, acceptor_positive_only, acceptor_negative_only
+    return donor_positive, donor_negative, acceptor_positive_only, acceptor_negative_only
 
 
 
