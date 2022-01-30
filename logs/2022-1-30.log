@@ -10,3 +10,51 @@ len(donor_training_set)=3941
 len(donor_test_set)=1314
 len(acceptor_training_set)=4340
 len(acceptor_test_set)=1447[0m
+[32m2022-01-30 02:31:49.395[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 02:31:49.411[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mData is valid[0m
+[32m2022-01-30 02:31:49.414[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 02:31:49.458[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m33[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 02:31:59.075[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 02:31:59.098[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mData is valid[0m
+[32m2022-01-30 02:31:59.101[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 02:31:59.135[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m33[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 02:32:07.124[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m14[0m - [32m[1mData loaded[0m
+[32m2022-01-30 02:32:07.143[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m25[0m - [32m[1mData is valid[0m
+[32m2022-01-30 02:32:07.146[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m26[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 02:32:07.207[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m33[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 02:36:16.414[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mget_sets[0m:[36m13[0m - [32m[1mData loaded[0m
+[32m2022-01-30 02:36:16.436[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mget_sets[0m:[36m24[0m - [32m[1mData is valid[0m
+[32m2022-01-30 02:36:16.440[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mget_sets[0m:[36m25[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 02:36:16.474[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mget_sets[0m:[36m32[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m

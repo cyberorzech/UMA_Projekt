@@ -2,9 +2,8 @@ from src.miscellaneous.settings_getter import get_settings
 from src.miscellaneous.data_loader import *
 from src.miscellaneous.logger_initializer import initialize_logger
 
-
 @logger.catch
-def main():
+def get_sets():
     SETTINGS = get_settings()
     DONOR_DATASET_PATH = SETTINGS["DONOR_DATASET_PATH"]
     ACCEPTOR_DATASET_PATH = SETTINGS["ACCEPTOR_DATASET_PATH"]
@@ -27,12 +26,22 @@ def main():
         f"Raw data summary:\n{len(donor_positive_only)=}\n{len(donor_negative_only)=}\n{len(acceptor_positive_only)=}\n{len(acceptor_negative_only)=}"
     )
 
-    TRAINING_SET_SIZE = .75
-    donor_training_set, donor_test_set = split_to_training_and_test(donor_positive_only, donor_negative_only)
-    acceptor_training_set, acceptor_test_set = split_to_training_and_test(acceptor_positive_only, acceptor_negative_only)
+    training_set_size = float(SETTINGS["TRAINING_SET_SIZE"])
+    donor_training_set, donor_test_set = split_to_training_and_test(donor_positive_only, donor_negative_only, training_set_size)
+    acceptor_training_set, acceptor_test_set = split_to_training_and_test(acceptor_positive_only, acceptor_negative_only, training_set_size)
     logger.success(f"Data have been prepared. Summary\n{len(donor_training_set)=}\n{len(donor_test_set)=}\n{len(acceptor_training_set)=}\n{len(acceptor_test_set)=}")
 
+    donor_training_set = convert_array_to_dataframe(donor_training_set)
+    donor_test_set = convert_array_to_dataframe(donor_test_set)
+    acceptor_training_set = convert_array_to_dataframe(acceptor_training_set)
+    acceptor_test_set = convert_array_to_dataframe(acceptor_test_set)
 
+    return donor_training_set, donor_test_set, acceptor_training_set, acceptor_test_set, donor_artifact_index, acceptor_artifact_index
+
+
+@logger.catch
+def main():
+    get_sets()
 
 if __name__ == "__main__":
     initialize_logger()

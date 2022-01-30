@@ -1,4 +1,3 @@
-from ast import Str
 from loguru import logger
 import numpy as np
 import pandas as pd
@@ -85,6 +84,15 @@ def split_to_training_and_test(positive_data: np.array, negative_data: np.array,
     training_set = merged_labeled_data[:int(training_set_size*len(merged_labeled_data)) - 1]
     test_set = merged_labeled_data[int(training_set_size*len(merged_labeled_data)):]
     return training_set, test_set
+
+@logger.catch
+def convert_array_to_dataframe(data_array: np.array) -> pd.DataFrame:
+    row_length = len(data_array[0])
+    data_with_splitted_rows = [list(str_seq) for str_seq in data_array]
+    columns = map(int, range(row_length - 1))
+    columns = list(columns)
+    columns.append("label")
+    return pd.DataFrame(data=data_with_splitted_rows, columns=columns)
 
 if __name__ == "__main__":
     raise NotImplementedError("Use as package")
