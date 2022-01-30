@@ -12,9 +12,15 @@ def main():
     x = donor_training_set
     labels = x["label"]
     for column_index in x:
+        if column_index > 0:
+            break
         column_data = x[column_index]
-        a_score, c_score, g_score, t_score = check_letters_and_labels(column_data, labels)
-        print(f"{column_index=}{a_score=}{c_score=}{g_score=}{t_score=}")
+        scores = [a_score, c_score, g_score, t_score] = check_letters_and_labels(column_data, labels)
+        #print(f"{column_index=}{a_score=}{c_score=}{g_score=}{t_score=}")
+        for score in scores:
+            score = get_leafs_gini_impurity(score)
+        total_gini = get_total_gini_impurity(scores)
+
 
 
 if __name__ == "__main__":

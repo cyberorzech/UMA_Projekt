@@ -105,3 +105,115 @@ len(donor_training_set)=3941
 len(donor_test_set)=1314
 len(acceptor_training_set)=4340
 len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:43:24.729[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:43:24.744[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:43:24.746[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 04:43:24.769[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:44:04.857[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:44:04.871[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:44:04.875[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 04:44:04.901[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:47:04.819[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:47:04.833[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:47:04.836[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 04:47:04.863[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:47:05.109[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m27[0m - [32m[1m-0.1915131999994628 : generator[0m
+[32m2022-01-30 04:47:05.379[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m33[0m - [32m[1m-0.26647539995610714 : iterable[0m
+[32m2022-01-30 04:47:34.925[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:47:34.947[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:47:34.951[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 04:47:34.978[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:48:57.105[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:48:57.128[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:48:57.133[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 04:48:57.164[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:48:59.054[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m27[0m - [32m[1m1.8334203999838792 : generator[0m
+[32m2022-01-30 04:49:02.391[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mmain[0m:[36m33[0m - [32m[1m3.3327502999454737 : iterable[0m
+[32m2022-01-30 04:53:17.923[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:53:17.941[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:53:17.946[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 04:53:17.973[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:58:01.793[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:58:01.809[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:58:01.812[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 04:58:01.845[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:58:40.139[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:58:40.154[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:58:40.157[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 04:58:40.187[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m
+[32m2022-01-30 04:58:56.277[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m110[0m - [32m[1mData loaded[0m
+[32m2022-01-30 04:58:56.296[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m121[0m - [32m[1mData is valid[0m
+[32m2022-01-30 04:58:56.299[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m122[0m - [32m[1mRaw data summary:
+len(donor_positive_only)=1116
+len(donor_negative_only)=4140
+len(acceptor_positive_only)=1116
+len(acceptor_negative_only)=4672[0m
+[32m2022-01-30 04:58:56.329[0m | [32m[1mSUCCESS [0m | [36msrc.miscellaneous.data_loader[0m:[36mget_datasets[0m:[36m129[0m - [32m[1mData have been prepared. Summary
+len(donor_training_set)=3941
+len(donor_test_set)=1314
+len(acceptor_training_set)=4340
+len(acceptor_test_set)=1447[0m

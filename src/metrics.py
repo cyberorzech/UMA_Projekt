@@ -28,6 +28,20 @@ def check_letters_and_labels(column_data, labels):
             t_score = update_label_score(label=labels[row_index], letter_score=t_score)
     return a_score, c_score, g_score, t_score
 
+@logger.catch
+def get_leafs_gini_impurity(leaf_score: list):
+    true_score = leaf_score[0]
+    false_score = leaf_score[1]
+    true_possibility = (true_score/(true_score + false_score))**2
+    false_possibility = (false_score/(true_score + false_score))**2
+    gini = 1 - true_possibility - false_possibility
+    return leaf_score.append(gini)
+
+@logger.catch
+def get_total_gini_impurity(scores: list) -> float:
+    pass
+
+
 
 if __name__ == "__main__":
     raise NotImplementedError("Use as package")
