@@ -1,4 +1,3 @@
-from decimal import DivisionByZero
 from loguru import logger
 
 @logger.catch
